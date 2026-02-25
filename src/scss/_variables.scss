@@ -1,0 +1,50 @@
+
+
+$primary: #FF9500;
+$heading-color: #262626;
+
+// LINKS
+
+$link-decoration:none;
+
+// FONTS
+
+$font-family-sans-serif: "Be Vietnam Pro",sans-serif;
+$font-family-monospace: "Be Vietnam Pro",sans-serif;
+
+$font-weight-base:            600;
+$line-height-base:            1.625;
+
+$headings-font-family:        "Be Vietnam Pro",sans-serif;
+$headings-line-height:        1.5;
+
+$h1-font-size:                $font-size-base * 5;
+$h2-font-size:                $font-size-base * 3;
+$h3-font-size:                $font-size-base * 2.375;
+$h4-font-size:                $font-size-base * 1.5;
+$h5-font-size:                $font-size-base * 1.25;
+$h6-font-size:                $font-size-base;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .75,
+  2: $spacer * 1.125,
+  3: $spacer * 1.5,
+  4: $spacer * 1.875,
+  5: $spacer * 3.125,
+);
+
+$container-max-widths: (
+  sm: 358px,
+  md: 720px,
+  lg: 960px,
+  xl: 1280px,
+  xxl: 1597px
+);
+
+// Custom btn
+$custom-btn-padding-y: 1.125rem;
+$custom-btn-padding-x: 1.5rem;
+$custom-btn-bg: $primary;
+$custom-btn-color: $white;
