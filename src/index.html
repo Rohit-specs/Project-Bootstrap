@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,53 +18,65 @@
 
 <body>
 
-    <header>
-        <section class="header-top">
-            <div class="container-fluid bg-primary">
-                <p class="mx-auto">Header top <i class="fa fa-arrow-right" aria-hidden="true"></i></p>
+    <header class="fw-normal custom-">
+        <section class="header-top py-1">
+            <div class="container-fluid bg-primary rounded-2">
+                <p class="text-center text-white">Free Courses 🌟 Sale Ends Soon, Get It Now <i
+                        class="fa fa-arrow-right" aria-hidden="true"></i></p>
             </div>
         </section>
         <section class="header-bottom">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container">
-                        <a class="navbar-brand" href="#"><img src="" alt="Logo"></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#services">Services</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#testimonial">Testimonial</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#faq">Faq</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#get-started">Contact</a>
-                                </li>
-                            </ul>
-                            <button type="button" class="rounded-pill btn-rounded border">
-                                
-                                </span>
-                            </button>
+
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="./icons/logo.svg" alt="Edtech logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav  me-sm-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+
+                        </ul>
+                        <div class="d-flex align-items-center gap-2" role="button">
+                            <button href="#" role="button" class="btn btn-light h-font-col">Sign Up</button>
+                            <a class="custom-btn btn" href="#">Login</a>
                         </div>
                     </div>
-                </nav>
-            </div>
+                </div>
+            </nav>
+
         </section>
     </header>
+    <section class="banner-section" id="banner-section">
+        <div class="container">
+            <h1 class="h2 d-flex gap-1 "><span class="d-inline-block p-1 p-xl-2 h4 my-auto custom-bg-orange rounded-2"><i class="fa fa-bolt" aria-hidden="true"></i></span><span
+                    class="text-primary">Unlock </span>Your Creative Potential</h1>
+            <h2 class="h3">with Online Design and Development Courses.</h2>
+            <p>Learn from Industry Experts and Enhance Your Skills.</p>
+            <div class="buttons
+            row">
+                <div class="col-auto custom-btn btn">Explore Courses</div>
+                <div class="col-auto btn btn-light ">View Pricing</div>
+            </div>
+        </div>
+    </section>
 
 </body>
 
