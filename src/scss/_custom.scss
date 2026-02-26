@@ -1,5 +1,4 @@
 // Import all of Bootstrap’s CSS
-// @import "bootstrap/scss/bootstrap";
 
 
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
@@ -14,6 +13,7 @@
 @import "./../../node_modules/bootstrap/scss/variables-dark";
 
 // 4. Include any default map overrides here
+$container-max-widths:map-merge($map1: $container-max-widths, $map2:$custom-max-width );
 
 
 // 5. Include remainder of required parts
@@ -36,7 +36,7 @@
 
 // 8. Add additional custom code here
 
-
+@import "bootstrap/scss/bootstrap";
 
 
 
@@ -44,8 +44,20 @@
     padding: $custom-btn-padding-y $custom-btn-padding-x;
     background-color: $custom-btn-bg;
     color: $custom-btn-color;
-    // &:hover{
-    //     background-color: ;
-    //     color: ;
-    // }
+    border-radius: .5rem;
+    &:hover{
+        background-color: $secondary;
+        color: $dark;
+    }
 }
+.custom-border{
+    border: .0625rem solid $secondary;
+}
+.h-font-col{
+    color: $heading-color;
+}
+.custom-bg-orange{
+    background-color: #FFF4E5;
+}
+
+@import './header';
