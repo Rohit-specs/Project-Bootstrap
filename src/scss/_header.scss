@@ -1,10 +1,10 @@
 header{
-    color: $secondary;
+    color: $border-color;
     
 }
 .nav-link{
     &:hover{
-        background-color: $secondary;
+        background-color: $border-color;
         border-radius: .25rem;
     }
 }

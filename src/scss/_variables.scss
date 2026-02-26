@@ -1,6 +1,8 @@
 $primary: #FF9500;
-$secondary: #F1F1F3;
+$border-color: #F1F1F3;
 $heading-color: #262626;
+$whitebg-99:#FCFCFD;
+$whitebg-97:#F7F7F8;
 
 // COLORS
 $white:    #fff ;
@@ -19,9 +21,9 @@ $black:    #000 ;
 
 $link-color:                              #262626;
 $link-decoration:                         none;
-$link-shade-percentage:                   20% !default;
-$link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
-$link-hover-decoration:                   null !default;
+$link-shade-percentage:                   20% ;
+$link-hover-color:                        shift-color($link-color, $link-shade-percentage) ;
+$link-hover-decoration:                   null ;
 
 // FONTS
 
@@ -73,5 +75,23 @@ $custom-btn-padding-x: 2.125rem;
 $custom-btn-bg: $primary;
 $custom-btn-color: $white;
 
+// BUTTONS
+
+$input-btn-padding-y:         .875rem ;
+$input-btn-padding-x:         2.125rem ;
+
+
+// $input-btn-padding-y-sm:      .25rem ;
+// $input-btn-padding-x-sm:      .5rem ;
+// $input-btn-font-size-sm:      $font-size-sm ;
+
+// $input-btn-padding-y-lg:      .5rem ;
+// $input-btn-padding-x-lg:      1rem ;
+// $input-btn-font-size-lg:      $font-size-lg ;
+
 // NAVBAR HAMBURGER ICON
 $navbar-light-toggler-icon-bg:      url("./../icons/bars.svg");
+
+// CONTAINER PADDING
+$container-p-lg: 9.375rem;
+$container-p: 6.25rem;
