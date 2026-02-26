@@ -1,11 +1,26 @@
-
-
 $primary: #FF9500;
 $heading-color: #262626;
 
+// COLORS
+$white:    #fff ;
+$gray-100: #f8f9fa ;
+$gray-200: #e9ecef ;
+$gray-300: #dee2e6 ;
+$gray-400: #ced4da ;
+$gray-500: #adb5bd ;
+$gray-600: #6c757d ;
+$gray-700: #495057 ;
+$gray-800: #343a40 ;
+$gray-900: #212529 ;
+$black:    #000 ;
+
 // LINKS
 
-$link-decoration:none;
+$link-color:                              $white;
+$link-decoration:                         none;
+$link-shade-percentage:                   20% !default;
+$link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
+$link-hover-decoration:                   null !default;
 
 // FONTS
 
@@ -15,8 +30,13 @@ $font-family-monospace: "Be Vietnam Pro",sans-serif;
 $font-weight-base:            600;
 $line-height-base:            1.625;
 
+
+// HEADING
+
 $headings-font-family:        "Be Vietnam Pro",sans-serif;
 $headings-line-height:        1.5;
+
+$font-size-base:              1rem;
 
 $h1-font-size:                $font-size-base * 5;
 $h2-font-size:                $font-size-base * 3;
@@ -24,6 +44,8 @@ $h3-font-size:                $font-size-base * 2.375;
 $h4-font-size:                $font-size-base * 1.5;
 $h5-font-size:                $font-size-base * 1.25;
 $h6-font-size:                $font-size-base;
+
+// SPACERS
 
 $spacer: 1rem;
 $spacers: (
@@ -35,6 +57,8 @@ $spacers: (
   5: $spacer * 3.125,
 );
 
+// CONTAINER
+
 $container-max-widths: (
   sm: 358px,
   md: 720px,
@@ -43,7 +67,7 @@ $container-max-widths: (
   xxl: 1597px
 );
 
-// Custom btn
+// CUSTOM ICON
 $custom-btn-padding-y: 1.125rem;
 $custom-btn-padding-x: 1.5rem;
 $custom-btn-bg: $primary;
