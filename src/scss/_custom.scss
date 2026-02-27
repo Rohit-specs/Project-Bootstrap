@@ -3,6 +3,7 @@ body{
     background-color: $whitebg-99;
 }
 
+// CUSTOM ORANGE BTN
 .custom-btn{
     padding: $custom-btn-padding-y $custom-btn-padding-x;
     background-color: $custom-btn-bg;
@@ -13,12 +14,16 @@ body{
         color: $dark;
     }
 }
+// CUSTOM BORDER
 .custom-border{
     border: .0625rem solid $border-color;
 }
+
 .h-font-col{
     color: $heading-color;
 }
+
+// PRIMARY COLOR VARIANT
 .bg-primary-95{
     background-color: $primary-95;
 }
@@ -40,6 +45,8 @@ body{
 .bg-primary-99{
     background-color: $primary-99;
 }
+
+// GREY TEXT VARIANT
 .text-col-grey-10{
     color:$grey-10;
 }
@@ -59,12 +66,15 @@ body{
     color:$grey-70;
 }
 
+// WHITE BG CLASSES
 .custom-bg-white99{
     background-color: $whitebg-99;
 }
 .custom-bg-white97{
     background-color: $whitebg-97;
 }
+
+
 // CONTAINER
 
 $container-p-lg: 9.375rem;
@@ -82,8 +92,15 @@ $container-p: 6.25rem;
 .container-pb-lg{
     padding-bottom: $container-p-lg;
 }
+
+// PARAGRAPH FONT WEIGHT
 p{
     font-weight: 400;
 }
+
+// EXTRA PADDING CLASS 
+// .p-80{
+//     padding: 5rem;
+// }
 
 // https://www.figma.com/design/NweIYKnQaekiKLSi6q5I6W/eDTech-E-Learning-Educational-Website?node-id=401-244&t=jgVIdLHC1u9Ktkxo-0
