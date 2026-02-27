@@ -1,5 +1,7 @@
 
-
+body{
+    background-color: $whitebg-99;
+}
 
 .custom-btn{
     padding: $custom-btn-padding-y $custom-btn-padding-x;
@@ -17,11 +19,48 @@
 .h-font-col{
     color: $heading-color;
 }
-.custom-bg-orange{
-    background-color: #FFF4E5;
+.bg-primary-95{
+    background-color: $primary-95;
 }
+.bg-primary-97{
+    background-color: $primary-97;
+}
+.bg-primary-90{
+    background-color: $primary-90;
+}
+.bg-primary-75{
+    background-color: $primary-75;
+}
+.bg-primary-70{
+    background-color: $primary-70;
+}
+.bg-primary-80{
+    background-color: $primary-80;
+}
+.bg-primary-99{
+    background-color: $primary-99;
+}
+.text-col-grey-10{
+    color:$grey-10;
+}
+.text-col-grey-20{
+    color:$grey-20;
+}
+.text-col-grey-35{
+    color:$grey-35;
+}
+.text-col-grey-40{
+    color:$grey-40;
+}
+.text-col-grey-60{
+    color:$grey-60;
+}
+.text-col-grey-70{
+    color:$grey-70;
+}
+
 .custom-bg-white99{
-    background-color: #FCFCFD;
+    background-color: $whitebg-99;
 }
 .custom-bg-white97{
     background-color: $whitebg-97;
@@ -42,6 +81,9 @@ $container-p: 6.25rem;
 }
 .container-pb-lg{
     padding-bottom: $container-p-lg;
+}
+p{
+    font-weight: 400;
 }
 
 // https://www.figma.com/design/NweIYKnQaekiKLSi6q5I6W/eDTech-E-Learning-Educational-Website?node-id=401-244&t=jgVIdLHC1u9Ktkxo-0
