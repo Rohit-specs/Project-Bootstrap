@@ -1,11 +1,42 @@
-.banner-section{
-    .container{
+.banner-section {
+    .container {
         max-width: 60rem;
-        // .banner-heading{
-        //     i{
-        //         font-size: 1.125rem;
+        .decoration-lines{
+            top: -26%;
+            left: -24%;
+        }
+    }
+}
 
-        //     }
-        // }
+@keyframes pulse-border {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.8);
+        opacity: 0;
+    }
+}
+
+.border-animation {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    border: 0.6rem solid $white;
+    border-radius: 50%;
+    top: -18%;
+    left: -22%;
+    animation: pulse-border 3s linear infinite;
+    &--border-2 {
+        animation-delay: 1.5s;
+    }
+    @include media-breakpoint-down(md) {
+        width: 3rem;
+        height: 3rem;
+        border: .35rem solid $white;
+        top: 8%;
+        left: 5%;
     }
 }

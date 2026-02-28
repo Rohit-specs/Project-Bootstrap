@@ -1,4 +1,4 @@
-.pricing-section{
+.our-pricing{
     &--content{
         @include media-breakpoint-up(xl){
             padding: 5rem !important;
@@ -6,5 +6,9 @@
         .primary-border{
             border: .0625rem solid $primary-90;
         }
+        .img-thumbnail{
+            padding: .375rem;
+        }
     }
+    
 }

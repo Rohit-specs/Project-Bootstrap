@@ -1,3 +1,4 @@
+
 $primary: #FF9500;
 $border-color: #F1F1F3;
 $heading-color: #262626;
@@ -9,6 +10,7 @@ $primary-90: #FFEACC;
 $primary-95: #FFF4E5;
 $primary-97: #FFF9F0;
 $primary-99: #FFFDFA;
+
 $whitebg-99:#FCFCFD;
 $whitebg-97:#F7F7F8;
 $whitebg-95:#F1F1F3;
@@ -113,3 +115,18 @@ $navbar-light-toggler-icon-bg:      url("./../icons/bars.svg");
 // CONTAINER PADDING
 $container-p-lg: 9.375rem;
 $container-p: 6.25rem;
+
+// ACCORDIAN VARIABLES OVERRIDES
+$accordion-padding-y:                     0rem .5rem;
+$accordion-padding-x:                     0rem;
+$accordion-color:                         #262626;
+
+$accordion-button-padding-y:              1.25rem;
+$accordion-button-padding-x:              1.25rem;
+$accordion-button-bg:                     #FFF4E5;
+
+$accordion-icon-width:                    1.25rem;
+$accordion-icon-transform:                rotate(-135deg);
+
+$accordion-button-icon:         url("./../icons/accordian-btn-icon.svg");
+$accordion-button-active-icon:  url("./../icons/accordian-btn-icon-active.svg");
