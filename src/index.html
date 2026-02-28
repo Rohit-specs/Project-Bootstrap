@@ -17,17 +17,22 @@
 </head>
 
 <body>
-
+    <!-- --------------------------------------------------------- -->
+    <!-- ===================  HEADER SECTION  ==================== -->
+    <!-- --------------------------------------------------------- -->
     <header class="fw-normal custom-">
-        <section class="header-top py-1">
-            <div class="container-fluid bg-primary rounded-2">
-                <p class="text-center text-white">Free Courses 🌟 Sale Ends Soon, Get It Now <i
-                        class="fa fa-arrow-right" aria-hidden="true"></i></p>
-            </div>
-        </section>
-        <section class="header-bottom">
-
-            <nav class="navbar navbar-expand-lg ">
+        <section class="header-top">
+            <div class="container-fluid bg-primary py-1 rounded-2 text-center">
+                <p class=" d-inline-block me-xl-3 me-lg-2 me-1 my-auto text-white">Free Courses 🌟 Sale Ends Soon, Get It Now </p><i
+                    class="fa fa-arrow-right" aria-hidden="true"></i>
+                </div>
+            </section>
+    <!-- -------------------------------------------------------- -->
+    <!-- ===================  NAVBAR SECTION  =================== -->
+    <!-- -------------------------------------------------------- -->
+            <section class="header-bottom">
+                
+                <nav class="navbar navbar-expand-lg ">
                 <div class="container">
                     <a class="navbar-brand" href="#">
                         <picture>
@@ -37,7 +42,7 @@
                             <img src="./icons/logo-for-mobile.svg" alt="Description of image">
                         </picture>
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -45,16 +50,16 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav  me-sm-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#banner-section">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Courses</a>
+                                <a class="nav-link" href="#our-courses">Courses</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
+                                <a class="nav-link" href="#our-testimonial">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link" href="#our-pricing">Pricing</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contact</a>
@@ -72,13 +77,20 @@
         </section>
     </header>
     <main>
+        <!-- --------------------------------------------------------- -->
+        <!-- ====================  BANNER SECTION  =================== -->
+        <!-- --------------------------------------------------------- -->
+        
         <section class="banner-section container-pt container-pb" id="banner-section">
             <div class="container text-center">
-                <div class="banner-heading custom-bg-white99 mb-xl-2 mb-1 px-2 px-xl-4 py-1 rounded-3">
-                    <h1 class="h2 text-center justify-content-center "><span
-                            class="d-inline-block p-1 p-xl-2 h4  custom-bg-orange rounded-2 "><i class="fa fa-bolt"
-                                aria-hidden="true"></i></span><span class="text-primary">Unlock </span>Your Creative
+                <div class="banner-heading custom-bg-white99 mb-xl-2 mb-1 px-2 px-xl-4 py-1 rounded-3 d-flex align-items-center justify-content-center gap-lg-2 gap-1">
+                    <span
+                            class="position-relative d-inline-block p-1 p-xl-2 h4  bg-primary-95 rounded-2"><i class="fa fa-bolt"
+                                aria-hidden="true"></i><img class="img-fluid position-absolute decoration-lines" src="./icons/abstract-line.svg" alt="decoration item" aria-hidden="true"></span>
+
+                    <h1 class="h2"><span class="text-primary">Unlock </span>Your Creative
                         Potential</h1>
+                    
                 </div>
                 <div class="banner-content px-lg-4 pb-xl-1">
                     <h2 class="h3 mb-1 fw-medium">with Online Design and Development Courses.</h2>
@@ -86,50 +98,65 @@
                 </div>
                 <div class="buttons
             d-flex align-items-center gap-1 justify-content-center ">
-                    <div class="custom-btn btn">Explore Courses</div>
-                    <div class="btn btn-light ">View Pricing</div>
+                    <a href="#" class="custom-btn btn">Explore Courses</a>
+                    <a href="#" class="h-font-col btn btn-light ">View Pricing</a>
                 </div>
             </div>
         </section>
+        <!-- --------------------------------------------------------- -->
+        <!-- =================  INLINE COMPANY LOGO  ================= -->
+        <!-- --------------------------------------------------------- -->
         <div class="container container-pb">
             <div class="d-flex justify-content-between p-2 p-lg-3 p-xl-4 rounded-3 custom-bg-white99">
                 <div class="img-1">
-                    <img src="./icons/company-logo-1.svg" alt="Company logo 1">
+                    <img class="text-col-grey-30" src="./icons/company-logo-1.svg" alt="Company logo 1">
                 </div>
                 <div class="vr"></div>
                 <div class="img-2">
-                    <img src="./icons/company-logo-2.svg" alt="Company logo 2">
+                    <img class="text-col-grey-30" src="./icons/company-logo-2.svg" alt="Company logo 2">
                 </div>
                 <div class="vr"></div>
                 <div class="img-3">
-                    <img src="./icons/company-logo-3.svg" alt="Company logo 3">
+                    <img class="text-col-grey-30" src="./icons/company-logo-3.svg" alt="Company logo 3">
                 </div>
                 <div class="d-none d-lg-block vr"></div>
                 <div class="d-none d-lg-block img-4">
-                    <img src="./icons/company-logo-4.svg" alt="Company logo 4">
+                    <img class="text-col-grey-30" src="./icons/company-logo-4.svg" alt="Company logo 4">
                 </div>
                 <div class="d-none d-lg-block vr"></div>
                 <div class="d-none d-lg-block img-5">
-                    <img src="./icons/company-logo-5.svg" alt="Company logo 5">
+                    <img class="text-col-grey-30" src="./icons/company-logo-5.svg" alt="Company logo 5">
                 </div>
                 <div class="d-none d-lg-block vr"></div>
                 <div class="d-none d-lg-block img-6">
-                    <img src="./icons/company-logo-6.svg" alt="Company logo 6">
+                    <img class="text-col-grey-30" src="./icons/company-logo-6.svg" alt="Company logo 6">
                 </div>
                 <div class="d-none d-lg-block vr"></div>
                 <div class="d-none d-lg-block img-7">
-                    <img src="./icons/company-logo-7.svg" alt="Company logo 7">
+                    <img class="text-col-grey-30" src="./icons/company-logo-7.svg" alt="Company logo 7">
                 </div>
             </div>
         </div>
+        <!-- --------------------------------------------------------- -->
+        <!-- ===================  VIDEO THUMBNAIL  =================== -->
+        <!-- --------------------------------------------------------- -->
         <div class="container container-pb">
             <div class="thumbnail-img border-2 overflow-hidden position-relative">
                 <img class="img-fluid" src="./images/video-thumbnail.jpg" alt="Click here to watch video">
-                <a href="#" class="position-absolute top-50 start-50 translate-middle text-white p-1 custom-bg-white stretched-link bg-transparent
-                border-2 border-lg-3 rounded-circle custom-border ratio-1x1 "><i class="fa fa-play"></i></a>
+                <a href="#"
+                    class="position-absolute top-50 start-50 translate-middle text-white p-2 custom-bg-white stretched-link">
+                    <span class="border-animation border-animation--border-1">
+                    </span>
+                    <span class="border-animation border-animation--border-2">
+                    </span>
+                    <i class=" fa fa-play"></i></a>
 
             </div>
         </div>
+        <!-- --------------------------------------------------------- -->
+        <!-- ===================  BENEFITS SECTION  ================== -->
+        <!-- --------------------------------------------------------- -->
+        
         <section class="benefits container-pb" id="benefits">
             <div class="container">
                 <div class="benefits-heading row mb-4 mb-lg-5">
@@ -137,9 +164,9 @@
                         <div class="benefits-content">
                             <h2 class="h3">Benefits</h1>
                         </div>
-                        <div class="benefits-header-button fw-normal">Lorem ipsum dolor sit amet consectetur. Tempus
+                        <div class="benefits-header-button fw-normal text-col-grey-35"><p>Lorem ipsum dolor sit amet consectetur. Tempus
                             tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget
-                            habitasse in velit fringilla feugiat senectus in.<p></p>
+                            habitasse in velit fringilla feugiat senectus in.</p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-4 align-self-end text-lg-end">
@@ -150,65 +177,86 @@
                 </div>
                 <div class="content mt-lg-1 mt-xl-2">
                     <div class="row g-2">
-                        <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 col col-12 col-lg-4">
-                            <h3 class=" h1 mb-lg-5 mb-4 text-end">01</h3>
-                            <h4 class="mb-1">Flexible Learning Schedule</h4>
-                            <p class="mb-xl-5 mb-lg-4 mb-3">Fit your coursework around your existing commitments and
-                                obligations.</p>
-                            <div class="text-end position-relative"><a href="#" class="stretched-link"><img
-                                        class="img-thumbnail custom-border p-2" src="./icons/right-up-arrow.svg"
-                                        alt="right up arrow"></a></div>
+                        <div class=" col col-12 col-lg-4">
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3">
+                                <h3 class=" h1 mb-lg-5 mb-4 text-end">01</h3>
+                                <h4 class="mb-1 text-col-grey-20">Flexible Learning Schedule</h4>
+                                <p class="mb-xl-5 text-col-grey-30 mb-lg-4 mb-3">Fit your coursework around your existing commitments and
+                                    obligations.</p>
+                                <div class="text-end position-relative"><a href="#" class="stretched-link"><img
+                                            class="img-thumbnail custom-border p-2" src="./icons/right-up-arrow.svg"
+                                            alt="right up arrow"></a></div>
+                            </div>
+
 
                         </div>
-                        <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 col col-12 col-lg-4">
-                            <h3 class=" h1 mb-lg-5 mb-4 text-end">02</h3>
-                            <h4 class="mb-1">Expert Instruction</h4>
-                            <p class="mb-xl-5 mb-lg-4 mb-3">Learn from industry experts who have hands-on experience in
-                                design and development.</p>
-                            <div class="text-end position-relative">
-                                <a href="#" class="stretched-link"><img class="img-thumbnail p-2"
-                                        src="./icons/right-up-arrow.svg" alt="right up arrow"></a>
+                        <div class=" col col-12 col-lg-4">
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3">
+                                <h3 class=" h1 mb-lg-5 mb-4 text-end">02</h3>
+                                <h4 class="mb-1 text-col-grey-20">Expert Instruction</h4>
+                                <p class="mb-xl-5 text-col-grey-30 mb-lg-4 mb-3">Learn from industry experts who have hands-on experience
+                                    in
+                                    design and development.</p>
+                                <div class="text-end position-relative">
+                                    <a href="#" class="stretched-link"><img class="img-thumbnail p-2"
+                                            src="./icons/right-up-arrow.svg" alt="right up arrow"></a>
+                                </div>
+
 
                             </div>
                         </div>
-                        <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 col col-12 col-lg-4">
-                            <h3 class=" h1 mb-lg-5 mb-4 text-end">03</h3>
-                            <h4 class="mb-1">Diverse Course Offerings</h4>
-                            <p class="mb-xl-5 mb-lg-4 mb-3">Explore a wide range of design and development courses
-                                covering various topics.</p>
-                            <div class="text-end position-relative">
-                                <a href="#" class="stretched-link"><img class="img-thumbnail p-2"
-                                        src="./icons/right-up-arrow.svg" alt="right up arrow"></a>
+                        <div class=" col col-12 col-lg-4">
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3">
+                                <h3 class=" h1 mb-lg-5 mb-4 text-end">03</h3>
+                                <h4 class="mb-1 text-col-grey-20">Diverse Course Offerings</h4>
+                                <p class="mb-xl-5 text-col-grey-30 mb-lg-4 mb-3">Explore a wide range of design and development courses
+                                    covering various topics.</p>
+                                <div class="text-end position-relative">
+                                    <a href="#" class="stretched-link"><img class="img-thumbnail p-2"
+                                            src="./icons/right-up-arrow.svg" alt="right up arrow"></a>
+                                </div>
+
                             </div>
                         </div>
-                        <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 col col-12 col-lg-4">
-                            <h3 class=" h1 mb-lg-5 mb-4 text-end">04</h3>
-                            <h4 class="mb-1">Updated Curriculum</h4>
-                            <p class="mb-xl-5 mb-lg-4 mb-3">Access courses with up-to-date content reflecting the latest
-                                trends and industry practices.</p>
-                            <div class="text-end position-relative">
-                                <a href="#" class="stretched-link"><img class="img-thumbnail p-2"
-                                        src="./icons/right-up-arrow.svg" alt="right up arrow"></a>
+                        <div class=" col col-12 col-lg-4">
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3">
+                                <h3 class=" h1 mb-lg-5 mb-4 text-end">04</h3>
+                                <h4 class="mb-1 text-col-grey-20">Updated Curriculum</h4>
+                                <p class="mb-xl-5 text-col-grey-30 mb-lg-4 mb-3">Access courses with up-to-date content reflecting the
+                                    latest
+                                    trends and industry practices.</p>
+                                <div class="text-end position-relative">
+                                    <a href="#" class="stretched-link"><img class="img-thumbnail p-2"
+                                            src="./icons/right-up-arrow.svg" alt="right up arrow"></a>
+                                </div>
+
                             </div>
                         </div>
-                        <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 col col-lg-4 ">
-                            <h3 class=" h1 mb-lg-5 mb-4 text-end">05</h3>
-                            <h4 class="mb-1">Practical Projects and Assignments</h4>
-                            <p class="mb-xl-5 mb-lg-4 mb-3">Develop a portfolio showcasing your skills and abilities to
-                                potential employers.</p>
-                            <div class="text-end position-relative">
-                                <a href="#" class="stretched-link"><img class="img-thumbnail p-2"
-                                        src="./icons/right-up-arrow.svg" alt="right up arrow"></a>
+                        <div class=" col col-lg-4 ">
+                            <div class="d-none d-lg-block rounded-2 bg-white p-xl-5 p-lg-4 p-3">
+                                <h3 class=" h1 mb-lg-5 mb-4 text-end">05</h3>
+                                <h4 class="mb-1 text-col-grey-20">Practical Projects and Assignments</h4>
+                                <p class="mb-xl-5 text-col-grey-30 mb-lg-4 mb-3">Develop a portfolio showcasing your skills and abilities
+                                    to
+                                    potential employers.</p>
+                                <div class="text-end position-relative">
+                                    <a href="#" class="stretched-link"><img class="img-thumbnail p-2"
+                                            src="./icons/right-up-arrow.svg" alt="right up arrow"></a>
+                                </div>
                             </div>
+
                         </div>
-                        <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 col col-12 col-lg-4 ">
-                            <h3 class=" h1 mb-lg-5 mb-4 text-end">06</h3>
-                            <h4 class="mb-1">Interactive Learning Environment</h4>
-                            <p class="mb-xl-5 mb-lg-4 mb-3">Collaborate with fellow learners, exchanging ideas and
-                                feedback to enhance your understanding.</p>
-                            <div class="text-end position-relative">
-                                <a href="#" class="stretched-link"><img class="img-thumbnail p-2"
-                                        src="./icons/right-up-arrow.svg" alt="right up arrow"></a>
+                        <div class=" col col-12 col-lg-4 ">
+                            <div class="d-none d-lg-block rounded-2 bg-white p-xl-5 p-lg-4 p-3">
+                                <h3 class=" h1 mb-lg-5 mb-4 text-end">06</h3>
+                                <h4 class="mb-1 text-col-grey-20">Interactive Learning Environment</h4>
+                                <p class="mb-xl-5 text-col-grey-30 mb-lg-4 mb-3">Collaborate with fellow learners, exchanging ideas and
+                                    feedback to enhance your understanding.</p>
+                                <div class="text-end position-relative">
+                                    <a href="#" class="stretched-link"><img class="img-thumbnail p-2"
+                                            src="./icons/right-up-arrow.svg" alt="right up arrow"></a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -217,16 +265,19 @@
             </div>
             </div>
         </section>
-        <section class="our-courses" id="our-courses">
-            <div class="container">
+        <!-- --------------------------------------------------------- -->
+        <!-- ===================  COURSES SECTION  =================== -->
+        <!-- --------------------------------------------------------- -->
+        <section class="our-courses container-pb" id="our-courses">
+            <div class="container ">
                 <div class="our-courses-heading row mb-4 mb-lg-5">
                     <div class="col-12 col-lg-8">
                         <div class="our-courses-content">
-                            <h2 class="h3">Benefits</h2>
+                            <h2 class="h3">Our Courses</h2>
                         </div>
-                        <div class="benefits-header-button fw-normal">Lorem ipsum dolor sit amet consectetur. Tempus
+                        <div class="fw-normal text-col-grey-35"><p>Lorem ipsum dolor sit amet consectetur. Tempus
                             tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget
-                            habitasse in velit fringilla feugiat senectus in.<p></p>
+                            habitasse in velit fringilla feugiat senectus in.</p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-4 align-self-end text-lg-end">
@@ -238,112 +289,143 @@
                 <div class="content mt-lg-1 mt-xl-2">
 
                     <div class="row g-2">
-                        <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 col col-12 col-lg-6">
-                            <img class="img-fluid" src="./images/our-courses-img-1.png" alt="our courses img">
-                            <div class="row mt-3 justify-content-between
+                        <div class="col col-12 col-lg-6">
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 "><img class="img-fluid"
+                                    src="./images/our-courses-img-1.png" alt="our courses img">
+                                <div class="row mt-3 justify-content-between
                             align-items-center">
-                                <div class="col col-12 col-lg-6 fw-normal">
-                                    <div class="btn btn-light px-2 py-1">4 Weeks</div>
-                                    <div class="btn btn-light px-2 py-1">Beginner</div>
-                                </div>
-                                <div class="col col-12 col-lg-6 fs-5 text-lg-end mt-lg-0
+                                    <div class="col col-12 col-lg-6 fw-normal">
+                                        <div class="btn btn-light px-2 py-1 fw-normal font-col-grey-30">4 Weeks</div>
+                                        <div class="btn btn-light px-2 py-1 fw-normal font-col-grey-30">Beginner</div>
+                                    </div>
+                                    <div class="col col-12 col-lg-6 fs-5 text-lg-end mt-lg-0 fw-medium 
                                 mt-1">By John Smith</div>
-                                <h3 class="mb-1 h4 mt-xl-4 mt-3">Web Design Fundamentals</h3>
-                                <p class="mb-3 mb-xl-4">Learn the fundamentals of web design, including HTML, CSS, and
-                                    responsive design principles. Develop the skills to create visually appealing and
-                                    user-friendly websites.</p>
-                                <a href="#" class="btn btn-light px-auto">Get it Now</a>
-                            </div>
-                        </div>
-                        <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 col col-12 col-lg-6">
-                            <img class="img-fluid" src="./images/our-courses-img-2.png" alt="our courses img">
-                            <div class="row mt-3 justify-content-between
-                            align-items-center">
-                                <div class="col col-12 col-lg-6 fw-normal">
-                                    <div class="btn btn-light px-2 py-1">6 Weeks</div>
-                                    <div class="btn btn-light px-2 py-1">Intermediate</div>
+                                    <h3 class="mb-1 h4 mt-xl-4 mt-3">Web Design Fundamentals</h3>
+                                    <p class="mb-3 mb-xl-4 font-col-grey-30">Learn the fundamentals of web design, including HTML, CSS,
+                                        and
+                                        responsive design principles. Develop the skills to create visually appealing
+                                        and
+                                        user-friendly websites.</p>
+                                    <a href="#" class="btn btn-light px-auto">Get it Now</a>
                                 </div>
-                                <div class="col col-12 col-lg-6 fs-5 text-lg-end mt-lg-0
+                            </div>
+
+                        </div>
+                        <div class=" col col-12 col-lg-6">
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3"><img class="img-fluid"
+                                    src="./images/our-courses-img-2.png" alt="our courses img">
+                                <div class="row mt-3 justify-content-between
+                            align-items-center">
+                                    <div class="col col-12 col-lg-6 fw-normal">
+                                        <div class="btn btn-light px-2 py-1 fw-normal font-col-grey-30">6 Weeks</div>
+                                        <div class="btn btn-light px-2 py-1 fw-normal font-col-grey-30">Intermediate</div>
+                                    </div>
+                                    <div class="col col-12 col-lg-6 fs-5 text-lg-end mt-lg-0 fw-medium 
                                 mt-1">By Emily Johnson</div>
-                                <h3 class="mb-1 h4 mt-xl-4 mt-3">UI/UX Design</h3>
-                                <p class="mb-3 mb-xl-4">Master the art of creating intuitive user interfaces (UI) and
-                                    enhancing user experiences (UX). Learn design principles, wireframing, prototyping,
-                                    and usability testing techniques.</p>
-                                <a href="#" class="btn btn-light px-auto">Get it Now</a>
-                            </div>
-                        </div>
-                        <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 col col-12 col-lg-6">
-                            <img class="img-fluid" src="./images/our-courses-img-3.png" alt="our courses img">
-                            <div class="row mt-3 justify-content-between
-                            align-items-center">
-                                <div class="col col-12 col-lg-6 fw-normal">
-                                    <div class="btn btn-light px-2 py-1">8 Weeks</div>
-                                    <div class="btn btn-light px-2 py-1">Intermediate</div>
+                                    <h3 class="mb-1 h4 mt-xl-4 mt-3">UI/UX Design</h3>
+                                    <p class="mb-3 mb-xl-4 font-col-grey-30">Master the art of creating intuitive user interfaces (UI)
+                                        and
+                                        enhancing user experiences (UX). Learn design principles, wireframing,
+                                        prototyping,
+                                        and usability testing techniques.</p>
+                                    <a href="#" class="btn btn-light px-auto">Get it Now</a>
                                 </div>
-                                <div class="col col-12 col-lg-6 fs-5 text-lg-end mt-lg-0
+                            </div>
+
+                        </div>
+                        <div class=" col col-12 col-lg-6">
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3"><img class="img-fluid"
+                                    src="./images/our-courses-img-3.png" alt="our courses img">
+                                <div class="row mt-3 justify-content-between
+                            align-items-center">
+                                    <div class="col col-12 col-lg-6 fw-normal">
+                                        <div class="btn btn-light px-2 py-1 fw-normal font-col-grey-30">8 Weeks</div>
+                                        <div class="btn btn-light px-2 py-1 fw-normal font-col-grey-30">Intermediate</div>
+                                    </div>
+                                    <div class="col col-12 col-lg-6 fs-5 text-lg-end mt-lg-0 fw-medium 
                                 mt-1">By David Brown</div>
-                                <h3 class="mb-1 h4 mt-xl-4 mt-3">Mobile App Development</h3>
-                                <p class="mb-3 mb-xl-4">Dive into the world of mobile app development. Learn to build
-                                    native iOS and Android applications using industry-leading frameworks like Swift and
-                                    Kotlin.</p>
-                                <a href="#" class="btn btn-light px-auto">Get it Now</a>
-                            </div>
-                        </div>
-                        <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 col col-12 col-lg-6">
-                            <img class="img-fluid" src="./images/our-courses-img-4.png" alt="our courses img">
-                            <div class="row mt-3 justify-content-between
-                            align-items-center">
-                                <div class="col col-12 col-lg-6 fw-normal">
-                                    <div class="btn btn-light px-2 py-1">10 Weeks</div>
-                                    <div class="btn btn-light px-2 py-1">Beginner</div>
+                                    <h3 class="mb-1 h4 mt-xl-4 mt-3">Mobile App Development</h3>
+                                    <p class="mb-3 mb-xl-4 font-col-grey-30">Dive into the world of mobile app development. Learn to
+                                        build
+                                        native iOS and Android applications using industry-leading frameworks like Swift
+                                        and
+                                        Kotlin.</p>
+                                    <a href="#" class="btn btn-light px-auto">Get it Now</a>
                                 </div>
-                                <div class="col col-12 col-lg-6 fs-5 text-lg-end mt-lg-0
+                            </div>
+
+                        </div>
+                        <div class=" col col-12 col-lg-6">
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3"><img class="img-fluid"
+                                    src="./images/our-courses-img-4.png" alt="our courses img">
+                                <div class="row mt-3 justify-content-between
+                            align-items-center">
+                                    <div class="col col-12 col-lg-6 fw-normal">
+                                        <div class="btn btn-light px-2 py-1 fw-normal font-col-grey-30">10 Weeks</div>
+                                        <div class="btn btn-light px-2 py-1 fw-normal font-col-grey-30">Beginner</div>
+                                    </div>
+                                    <div class="col col-12 col-lg-6 fs-5 text-lg-end mt-lg-0 fw-medium 
                                 mt-1">By Sarah Thompson</div>
-                                <h3 class="mb-1 h4 mt-xl-4 mt-3">Graphic Design for Beginners</h3>
-                                <p class="mb-3 mb-xl-4">Discover the fundamentals of graphic design, including
-                                    typography, color theory, layout design, and image manipulation techniques. Create
-                                    visually stunning designs for print and digital media..</p>
-                                <a href="#" class="btn btn-light px-auto">Get it Now</a>
-                            </div>
-                        </div>
-                        <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 col col-12 col-lg-6">
-                            <img class="img-fluid" src="./images/our-courses-img-5.png" alt="our courses img">
-                            <div class="row mt-3 justify-content-between
-                            align-items-center">
-                                <div class="col col-12 col-lg-6 fw-normal">
-                                    <div class="btn btn-light px-2 py-1">10 Weeks</div>
-                                    <div class="btn btn-light px-2 py-1">Intermediate</div>
+                                    <h3 class="mb-1 h4 mt-xl-4 mt-3">Graphic Design for Beginners</h3>
+                                    <p class="mb-3 mb-xl-4 font-col-grey-30">Discover the fundamentals of graphic design, including
+                                        typography, color theory, layout design, and image manipulation techniques.
+                                        Create
+                                        visually stunning designs for print and digital media..</p>
+                                    <a href="#" class="btn btn-light px-auto">Get it Now</a>
                                 </div>
-                                <div class="col col-12 col-lg-6 fs-5 text-lg-end mt-lg-0
+                            </div>
+
+                        </div>
+                        <div class="col col-12 col-lg-6">
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 "><img class="img-fluid"
+                                    src="./images/our-courses-img-5.png" alt="our courses img">
+                                <div class="row mt-3 justify-content-between
+                            align-items-center">
+                                    <div class="col col-12 col-lg-6 fw-normal">
+                                        <div class="btn btn-light px-2 py-1 fw-normal font-col-grey-30">10 Weeks</div>
+                                        <div class="btn btn-light px-2 py-1 fw-normal font-col-grey-30">Intermediate</div>
+                                    </div>
+                                    <div class="col col-12 col-lg-6 fs-5 text-lg-end mt-lg-0 fw-medium 
                                 mt-1">By Michael Adams</div>
-                                <h3 class="mb-1 h4 mt-xl-4 mt-3">Front-End Web Development</h3>
-                                <p class="mb-3 mb-xl-4">Become proficient in front-end web development. Learn HTML, CSS,
-                                    JavaScript, and popular frameworks like Bootstrap and React. Build interactive and
-                                    responsive websites.</p>
-                                <a href="#" class="btn btn-light px-auto">Get it Now</a>
-                            </div>
-                        </div>
-                        <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 col col-12 col-lg-6">
-                            <img class="img-fluid" src="./images/our-courses-img-6.png" alt="our courses img">
-                            <div class="row mt-3 justify-content-between
-                            align-items-center">
-                                <div class="col col-12 col-lg-6 fw-normal">
-                                    <div class="btn btn-light px-2 py-1">6 Weeks</div>
-                                    <div class="btn btn-light px-2 py-1">Advance</div>
+                                    <h3 class="mb-1 h4 mt-xl-4 mt-3">Front-End Web Development</h3>
+                                    <p class="mb-3 mb-xl-4 font-col-grey-30">Become proficient in front-end web development. Learn HTML,
+                                        CSS,
+                                        JavaScript, and popular frameworks like Bootstrap and React. Build interactive
+                                        and
+                                        responsive websites.</p>
+                                    <a href="#" class="btn btn-light px-auto">Get it Now</a>
                                 </div>
-                                <div class="col col-12 col-lg-6 fs-5 text-lg-end mt-lg-0
-                                mt-1">By Jennifer Wilson</div>
-                                <h3 class="mb-1 h4 mt-xl-4 mt-3">Advanced JavaScript</h3>
-                                <p class="mb-3 mb-xl-4">Take your JavaScript skills to the next level. Explore advanced
-                                    concepts like closures, prototypes, asynchronous programming, and ES6 features.
-                                    Build complex applications with confidence.</p>
-                                <a href="#" class="btn btn-light px-auto">Get it Now</a>
                             </div>
+
+                        </div>
+                        <div class=" col col-12 col-lg-6">
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3"><img class="img-fluid"
+                                    src="./images/our-courses-img-6.png" alt="our courses img">
+                                <div class="row mt-3 justify-content-between
+                            align-items-center">
+                                    <div class="col col-12 col-lg-6 fw-normal">
+                                        <div class="btn btn-light px-2 py-1 fw-normal font-col-grey-30">6 Weeks</div>
+                                        <div class="btn btn-light px-2 py-1 fw-normal font-col-grey-30">Advance</div>
+                                    </div>
+                                    <div class="col col-12 col-lg-6 fs-5 text-lg-end mt-lg-0 fw-medium 
+                                mt-1">By Jennifer Wilson</div>
+                                    <h3 class="mb-1 h4 mt-xl-4 mt-3">Advanced JavaScript</h3>
+                                    <p class="mb-3 mb-xl-4 font-col-grey-30">Take your JavaScript skills to the next level. Explore
+                                        advanced
+                                        concepts like closures, prototypes, asynchronous programming, and ES6 features.
+                                        Build complex applications with confidence.</p>
+                                    <a href="#" class="btn btn-light px-auto">Get it Now</a>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- --------------------------------------------------------- -->
+        <!-- =================  TESTIMONIAL SECTION  ================= -->
+        <!-- --------------------------------------------------------- -->
         <section class="our-testimonial container-pb-lg" id="our-testimonial">
             <div class="container">
                 <div class="our-testimonial-heading row mb-4 mb-lg-5">
@@ -351,9 +433,9 @@
                         <div class="our-testimonial-content">
                             <h2 class="h3">Our Testimonial</h2>
                         </div>
-                        <div class="benefits-header-button fw-normal">Lorem ipsum dolor sit amet consectetur. Tempus
+                        <div class="testimonial-header-button fw-normal text-col-grey-35"><p>Lorem ipsum dolor sit amet consectetur. Tempus
                             tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget
-                            habitasse in velit fringilla feugiat senectus in.<p></p>
+                            habitasse in velit fringilla feugiat senectus in.</p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-4 align-self-end text-lg-end">
@@ -365,9 +447,9 @@
                 <div class="content mt-lg-1 mt-xl-2">
 
                     <div class="row g-2">
-                        <div class="rounded-2 col custom-border col-12 col-lg-6">
-                            <div class="d-flex flex-column">
-                                <p class="p-xl-5 p-4 bg-white">
+                        <div class=" col col-12 col-lg-6">
+                            <div class="rounded-2 custom-border"><div class="d-flex flex-column">
+                                <p class="p-xl-5 p-4 bg-white text-col-grey-30">
                                     he web design course provided a solid foundation for me. The instructors were
                                     knowledgeable and supportive, and the interactive learning environment was engaging.
                                     I
@@ -376,19 +458,21 @@
                                     <div class="icon-link">
                                         <img src="./images/testimonial-img-1.png" alt="Client images">
 
-                                        <p class="client-names my-auto fw-semibold">Sarah L</p>
+                                        <p class="client-names my-auto fw-semibold text-col-grey-20">Sarah L</p>
 
 
                                     </div>
                                     <a href="#" class="btn btn-light custom-border">Read Full Story</a>
 
                                 </div>
-                            </div>
+                            </div></div>
+
+                            
 
                         </div>
-                        <div class="rounded-2 col custom-border col-12 col-lg-6">
-                            <div class="d-flex flex-column">
-                                <p class="p-xl-5 p-4 bg-white">
+                        <div class="col col-12 col-lg-6">
+                            <div class="custom-border rounded-2 "><div class="d-flex flex-column">
+                                <p class="p-xl-5 p-4 bg-white text-col-grey-30">
                                     he UI/UX design course exceeded my expectations. The instructor's expertise and
                                     practical assignments helped me improve my design skills. I feel more confident in
                                     my
@@ -397,19 +481,20 @@
                                     <div class="icon-link">
                                         <img src="./images/testimonial-img-2.png" alt="Client images">
 
-                                        <p class="client-names my-auto fw-semibold">Jason M</p>
+                                        <p class="client-names my-auto fw-semibold text-col-grey-20">Jason M</p>
 
 
                                     </div>
                                     <a href="#" class="btn btn-light custom-border">Read Full Story</a>
 
                                 </div>
-                            </div>
+                            </div></div>
+                            
 
                         </div>
-                        <div class="rounded-2 col custom-border col-12 col-lg-6">
-                            <div class="d-flex flex-column">
-                                <p class="p-xl-5 p-4 bg-white">The mobile app development course was fantastic! The
+                        <div class="col col-12 col-lg-6">
+                            <div class="rounded-2 custom-border"><div class="d-flex flex-column">
+                                <p class="p-xl-5 p-4 bg-white text-col-grey-30">The mobile app development course was fantastic! The
                                     step-by-step tutorials and
                                     hands-on
                                     projects helped me grasp the concepts easily. I'm now building my own app. Great
@@ -419,20 +504,21 @@
                                     <div class="icon-link">
                                         <img src="./images/testimonial-img-3.png" alt="Client images">
 
-                                        <p class="client-names my-auto fw-semibold">Emily R</p>
+                                        <p class="client-names my-auto fw-semibold text-col-grey-20">Emily R</p>
 
 
                                     </div>
                                     <a href="#" class="btn btn-light custom-border">Read Full Story</a>
 
                                 </div>
-                            </div>
+                            </div></div>
+                            
 
 
                         </div>
-                        <div class="rounded-2 col custom-border col-12 col-lg-6">
-                            <div class="d-flex flex-column">
-                                <p class="p-xl-5 p-4 bg-white">
+                        <div class="col col-12 col-lg-6">
+                            <div class="rounded-2 custom-border "><div class="d-flex flex-column">
+                                <p class="p-xl-5 p-4 bg-white text-col-grey-30">
                                     enrolled in the graphic design course as a beginner, and it was the perfect starting
                                     point. The instructor's guidance and feedback improved my design abilities
                                     significantly. I'm grateful for this course!</p>
@@ -440,7 +526,7 @@
                                     <div class="icon-link">
                                         <img src="./images/testimonial-img-4.png" alt="Client images">
 
-                                        <p class="client-names my-auto fw-semibold">Michael K</p>
+                                        <p class="client-names my-auto fw-semibold text-col-grey-20">Michael K</p>
                                     </div>
 
 
@@ -450,7 +536,8 @@
                                     </a>
 
                                 </div>
-                            </div>
+                            </div></div>
+                            
 
                         </div>
 
@@ -461,40 +548,327 @@
 
             </div>
         </section>
-        <section class="our-pricing" id="our-pricing">
+        <!-- --------------------------------------------------------- -->
+        <!-- ===================  PRICING SECTION  =================== -->
+        <!-- --------------------------------------------------------- -->
+        <section class="our-pricing container-pb" id="our-pricing">
             <div class="container">
-                <div class="our-pricing-heading row mb-4 mb-lg-5">
+                <div class="our-pricing-heading row mb-4 mb-lg-5 g-4">
                     <div class="col-12 col-lg-7">
                         <div class="our-pricing-content">
                             <h2 class="h3">Our Pricing</h2>
                         </div>
-                        <div class="benefits-header-button fw-normal">Lorem ipsum dolor sit amet consectetur. Tempus
+                        <div class="pricing-header-button fw-normal text-col-grey-35"><p>Lorem ipsum dolor sit amet consectetur. Tempus
                             tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget
-                            habitasse in velit fringilla feugiat senectus in.<p></p>
+                            habitasse in velit fringilla feugiat senectus in.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-5 align-self-end text-lg-end text-center">
-                        <a href="#" class="btn custom-border btn-light">View All</a>
+                    <div class="col-auto col-12 col-lg-5 align-self-end text-lg-end text-center">
+                        <div class="p-1 d-inline-block rounded-3 bg-white">
+                            <a class="btn btn-primary rounded-3 text-white fw-medium" href="#">Monthly</a>
+                            <a href="#" class="btn custom-border rounded-0 border-0 fw-medium">Yearly</a>
+                        </div>
+
                     </div>
 
 
                 </div>
-                <div class="our-pricing--content p-4 p-lg-5 bg-white">
-                    <div class="row g-4">
-                        <div class="col col-12 custom-bg-white99 col-lg-6 px-xl-4 py-xl-3 px-lg-3 py-lg-2">
-                            <p class="mb-4 mb-lg-5 primary-border rounded-1 bg-primary-97 text-center mx-auto py-1 fw-medium">Free Plan</p>
-                            <h3 class="h1 mb-lg-5 mb-4">$0<span class="fs-6 fw-medium">/month</span></h3>
+                <div class="our-pricing--content">
+                    <div class="row p-4 mt-3 mt-lg-0 p-lg-5 bg-white g-4 g-lg-5 ">
+                        <div class="col col-12 col-lg-6 mb-4 mb-lg-0">
+                            <div class="custom-bg-white99 px-xl-4
+                        px-2 py-3 px-lg-4 py-lg-3 rounded-3">
+                                <p
+                                    class="mb-4 mb-lg-5 primary-border rounded-1 bg-primary-97 text-center mx-auto py-1 fw-medium ">
+                                    Free Plan</p>
+                                <h3 class="h1 text-center mb-lg-5 mb-4">$0<span class="fs-6 text-col-grey-30 fw-medium">/month</span>
+                                </h3>
+                                <div class="card custom-border rounded-bottom-0 rounded-top p-2 p-lg-3 p-xl-4">
+
+                                    <strong class="h-font-col mb-2 mb-lg-3 mb-xl-4 text-center fs-5   fw-medium">Availiable
+                                        Features</strong>
+                                    <ul class="list-unstyled flex-column d-flex gap-2">
+                                        <li class="icon-link p-1 custom-border
+                                    rounded-3">
+                                            <div class="img-thumbnail bg-primary-95"><i class="fa-solid fa-check"
+                                                    aria-hidden="true"></i></div>
+                                            <p class="my-auto text-col-grey-30 fw-normal">Access to selected free courses.</p>
+                                        </li>
+                                        <li class="icon-link p-1 custom-border
+                                    rounded-3">
+                                            <div class="img-thumbnail bg-primary-95"><i class="fa-solid fa-check"
+                                                    aria-hidden="true"></i></div>
+                                            <p class="my-auto text-col-grey-30 fw-normal">Limited course materials and resources.</p>
+                                        </li>
+                                        <li class="icon-link p-1 custom-border
+                                    rounded-3">
+                                            <div class="img-thumbnail bg-primary-95"><i class="fa-solid fa-check"
+                                                    aria-hidden="true"></i></div>
+                                            <p class="my-auto text-col-grey-30 fw-normal">Basic community support.</p>
+                                        </li>
+                                        <li class="icon-link p-1 custom-border
+                                    rounded-3">
+                                            <div class="img-thumbnail bg-primary-95"><i class="fa-solid fa-check"
+                                                    aria-hidden="true"></i></div>
+                                            <p class="my-auto text-col-grey-30 fw-normal">No certification upon completion.</p>
+                                        </li>
+                                        <li class="icon-link p-1 custom-border
+                                    rounded-3">
+                                            <div class="img-thumbnail bg-primary-95"><i class="fa-solid fa-check"
+                                                    aria-hidden="true"></i>
+
+                                            </div>
+                                            <p class="my-auto text-col-grey-30 fw-normal">Ad-supported platform.</p>
+                                        </li>
+                                        <li class="icon-link p-1 custom-border
+                                    rounded-3">
+                                            <div class="img-thumbnail bg-primary-95"><i class="fa-solid fa-xmark"
+                                                    aria-hidden="true"></i></div>
+                                            <p class="my-auto text-col-grey-30 fw-normal">Access to exclusive Pro Plan community forums.</p>
+                                        </li>
+                                        <li class="icon-link p-1 custom-border
+                                    rounded-3">
+                                            <div class="img-thumbnail bg-primary-95"><i class="fa-solid fa-xmark"
+                                                    aria-hidden="true"></i></div>
+                                            <p class="my-auto text-col-grey-30 fw-normal">Early access to new courses and updates.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="btn rounded-0 rounded-bottom w-100 btn-primary text-center"><a
+                                        class="text-white fw-semibold" href="#">Get Started</a></div>
+                            </div>
+
+
                         </div>
-                        <div class="col col-12 custom-bg-white99 col-lg-6 px-xl-4 py-xl-3 px-lg-3 py-lg-2">
-                            <p class="mb-4 mb-lg-5 primary-border rounded-1 bg-primary-97 text-center mx-auto py-1 fw-medium">Free Plan</p>
-                            <h3 class="h1 mb-lg-5 mb-4">$79<span class="fs-6 fw-medium">/month</span></h3>
+                        <div class="col col-12 col-lg-6 ">
+                            <div class="custom-bg-white99 px-xl-4
+                        px-2 py-3 px-lg-4 py-lg-3 rounded-3">
+                                <p
+                                    class="mb-4 mb-lg-5 primary-border rounded-1 bg-primary-97 text-center mx-auto py-1 fw-medium ">
+                                    Pro Plan</p>
+                                <h3 class="h1 text-center mb-lg-5 mb-4">$79<span class="fs-6 text-col-grey-30 fw-medium">/month</span>
+                                </h3>
+                                <div class="card custom-border rounded-top rounded-bottom-0 p-2 p-lg-3 p-xl-4">
+
+                                    <strong class="h-font-col mb-2 mb-lg-3 mb-xl-4 text-center fs-5 fw-medium">Availiable
+                                        Features</strong>
+                                    <ul class="list-unstyled flex-column d-flex gap-2">
+                                        <li class="icon-link p-1 custom-border
+                                    rounded-3">
+                                            <div class="img-thumbnail bg-primary-95"><i class="fa-solid fa-check"
+                                                    aria-hidden="true"></i></div>
+                                            <p class="my-auto text-col-grey-30 fw-normal">Unlimited access to all courses.</p>
+                                        </li>
+                                        <li class="icon-link p-1 custom-border
+                                    rounded-3">
+                                            <div class="img-thumbnail bg-primary-95"><i class="fa-solid fa-check"
+                                                    aria-hidden="true"></i></div>
+                                            <p class="my-auto text-col-grey-30 fw-normal">Unlimited course materials and resources.</p>
+                                        </li>
+                                        <li class="icon-link p-1 custom-border
+                                    rounded-3">
+                                            <div class="img-thumbnail bg-primary-95"><i class="fa-solid fa-check"
+                                                    aria-hidden="true"></i></div>
+                                            <p class="my-auto text-col-grey-30 fw-normal">Priority support from instructors.</p>
+                                        </li>
+                                        <li class="icon-link p-1 custom-border
+                                    rounded-3">
+                                            <div class="img-thumbnail bg-primary-95"><i class="fa-solid fa-check"
+                                                    aria-hidden="true"></i></div>
+                                            <p class="my-auto text-col-grey-30 fw-normal">Course completion certificates.</p>
+                                        </li>
+                                        <li class="icon-link p-1 custom-border
+                                    rounded-3">
+                                            <div class="img-thumbnail bg-primary-95"><i class="fa-solid fa-check"
+                                                    aria-hidden="true"></i></div>
+                                            <p class="my-auto text-col-grey-30 fw-normal">Ad-free experience.</p>
+                                        </li>
+                                        <li class="icon-link p-1 custom-border
+                                    rounded-3">
+                                            <div class="img-thumbnail bg-primary-95"><i class="fa-solid fa-check"
+                                                    aria-hidden="true"></i></div>
+                                            <p class="my-auto text-col-grey-30 fw-normal">Access to exclusive Pro Plan community forums.</p>
+                                        </li>
+                                        <li class="icon-link p-1 custom-border
+                                    rounded-3">
+                                            <div class="img-thumbnail bg-primary-95"><i class="fa-solid fa-check"
+                                                    aria-hidden="true"></i></div>
+                                            <p class="my-auto text-col-grey-30 fw-normal">Early access to new courses and updates.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="btn rounded-0 rounded-bottom w-100 btn-primary text-center"><a
+                                        class="text-white fw-semibold" href="#">Get Started</a></div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- --------------------------------------------------------- -->
+        <!-- ====================  FAQ'S SECTION  ==================== -->
+        <!-- --------------------------------------------------------- -->
+        <div class="faq-section" id="faq-section">
+            <div class="container bg-white rounded-3 p-lg-5">
+                <div class="row p-3 p-lg-5 g-4 justify-content-between g-xl-5">
+                    <div class="col col-12 col-lg-4">
+                        <h2>Frequently Asked Questions</h2>
+                        <p class="mb-2 mb-xl-5 mb-lg-4 text-col-grey-20 fw-normal">Still you have any questions? Contact our Team via
+                            support@skillbridge.com</p>
+                        <a class="btn btn-light custom-border" href="#">See All FAQ's</a>
+
+                    </div>
+                    <div class="col col-12 col-lg-7">
+
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item p-lg-5 p-3 mb-3 rounded-3 mb-lg-3">
+                                <h2 class="accordion-header fw-medium">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseOne">
+                                        Can I enroll in multiple courses at once?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                    <div class="accordion-body">
+                                        <hr class="custom-border">
+                                        <p class="my-xl-5 text-col-grey-30 fw-normal my-lg-4 my-2">Absolutely! You can enroll in multiple courses
+                                            simultaneously and access them
+                                            at your convenience.</p>
+                                        <div
+                                            class="d-flex  justify-content-between align-items-center p-xl-4 p-lg-3 py-1 px-2 custom-bg-white97 custom-border rounded-2">
+                                            <p class="my-auto fw-medium text-col-grey-20">Enrollment Process for Different Courses</p>
+                                            <div class="rounded-circle  p-lg-3 p-2 bg-white position-relative"><a
+                                                    class="stretched-link" role="link" href="#"><img
+                                                        class="position-absolute top-50 start-50 translate-middle"
+                                                        src="./icons/right-arrow-icon.svg" alt="Right arrow"
+                                                        aria-hidden="true"></a></div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item p-lg-5 p-3 mb-3 rounded-3 border-top mb-lg-3">
+                                <h2 class="accordion-header fw-medium">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseTwo">
+                                        What kind of support can I expect from instructors?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <hr class="custom-border">
+                                        <p class="my-xl-5 text-col-grey-30 fw-normal my-lg-4 my-2">Absolutely! You can enroll in multiple courses
+                                            simultaneously and access them
+                                            at your convenience.</p>
+                                        <div
+                                            class="d-flex  justify-content-between align-items-center p-xl-4 p-lg-3 py-1 px-2 custom-bg-white97 custom-border rounded-2">
+                                            <p class="my-auto fw-medium text-col-grey-20">Enrollment Process for Different Courses</p>
+                                            <div class="rounded-circle  p-lg-3 p-2 bg-white position-relative"><a
+                                                    class="stretched-link" role="link" href="#"><img
+                                                        class="position-absolute top-50 start-50 translate-middle"
+                                                        src="./icons/right-arrow-icon.svg" alt="Right arrow"
+                                                        aria-hidden="true"></a></div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item p-lg-5 p-3 mb-3 rounded-3 border-top mb-lg-3">
+                                <h2 class="accordion-header fw-medium">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapseThree">
+                                        Are the courses self-paced or do they have specific start and end dates?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <hr class="custom-border">
+                                        <p class="my-xl-5 text-col-grey-30 fw-normal my-lg-4 my-2">Absolutely! You can enroll in multiple courses
+                                            simultaneously and access them
+                                            at your convenience.</p>
+                                        <div
+                                            class="d-flex  justify-content-between align-items-center p-xl-4 p-lg-3 py-1 px-2 custom-bg-white97 custom-border rounded-2">
+                                            <p class="my-auto fw-medium text-col-grey-20">Enrollment Process for Different Courses</p>
+                                            <div class="rounded-circle  p-lg-3 p-2 bg-white position-relative"><a
+                                                    class="stretched-link" role="link" href="#"><img
+                                                        class="position-absolute top-50 start-50 translate-middle"
+                                                        src="./icons/right-arrow-icon.svg" alt="Right arrow"
+                                                        aria-hidden="true"></a></div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item p-lg-5 p-3 mb-3 rounded-3 border-top mb-lg-3">
+                                <h2 class="accordion-header fw-medium">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse-four" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse-four">Are there any prerequisites for the
+                                        courses?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse-four" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <hr class="custom-border">
+                                        <p class="my-xl-5 text-col-grey-30 fw-normal my-lg-4 my-2">Absolutely! You can enroll in multiple courses
+                                            simultaneously and access them
+                                            at your convenience.</p>
+                                        <div
+                                            class="d-flex  justify-content-between align-items-center p-xl-4 p-lg-3 py-1 px-2 custom-bg-white97 custom-border rounded-2">
+                                            <p class="my-auto fw-medium text-col-grey-20">Enrollment Process for Different Courses</p>
+                                            <div class="rounded-circle  p-lg-3 p-2 bg-white position-relative"><a
+                                                    class="stretched-link" role="link" href="#"><img
+                                                        class="position-absolute top-50 start-50 translate-middle"
+                                                        src="./icons/right-arrow-icon.svg" alt="Right arrow"
+                                                        aria-hidden="true"></a></div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item p-lg-5 p-3 mb-3 rounded-3 border-top mb-lg-3">
+                                <h2 class="accordion-header fw-medium">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapse-five" aria-expanded="false"
+                                        aria-controls="panelsStayOpen-collapse-five">
+                                        Can I download the course materials for offline access?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse-five" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <hr class="custom-border">
+                                        <p class="my-xl-5 text-col-grey-30 fw-normal my-lg-4 my-2">Absolutely! You can enroll in multiple courses
+                                            simultaneously and access them
+                                            at your convenience.</p>
+                                        <div
+                                            class="d-flex  justify-content-between align-items-center p-xl-4 p-lg-3 py-1 px-2 custom-bg-white97 custom-border rounded-2">
+                                            <p class="my-auto fw-medium text-col-grey-20">Enrollment Process for Different Courses</p>
+                                            <div class="rounded-circle  p-lg-3 p-2 bg-white position-relative"><a
+                                                    class="stretched-link" role="link" href="#"><img
+                                                        class="position-absolute top-50 start-50 translate-middle"
+                                                        src="./icons/right-arrow-icon.svg" alt="Right arrow"
+                                                        aria-hidden="true"></a></div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </main>
+    <!-- --------------------------------------------------------- -->
+    <!-- ===================  FOOTER SECTION  =================== -->
+    <!-- --------------------------------------------------------- -->
     <footer>
         <div class="container container-pt mb-2 mb-lg-4 mb-xl-5">
             <div class="row">
