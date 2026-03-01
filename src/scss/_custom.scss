@@ -1,113 +1,185 @@
-
-body{
+body {
     background-color: $gray-100;
 }
 
 // CUSTOM ORANGE BTN
-.custom-btn{
+.custom-btn {
     padding: $custom-btn-padding-y $custom-btn-padding-x;
+    @include media-breakpoint-down(xl) {
+        padding: .875rem 1.25rem;
+    }
     background-color: $custom-btn-bg;
     color: $custom-btn-color;
     border-radius: .5rem;
-    &:hover{
+
+    &:hover {
         background-color: $border-color;
         color: $dark;
     }
 }
+
 // CUSTOM BORDER
-.custom-border{
+.custom-border {
     border: .0625rem solid $border-color;
 }
 
-.h-font-col{
+.h-font-col {
     color: $heading-color;
 }
 
 // PRIMARY COLOR VARIANT
-.bg-primary-95{
+.bg-primary-95 {
     background-color: $primary-95;
 }
-.bg-primary-97{
+
+.bg-primary-97 {
     background-color: $primary-97;
 }
-.bg-primary-90{
+
+.bg-primary-90 {
     background-color: $primary-90;
 }
-.bg-primary-75{
+
+.bg-primary-75 {
     background-color: $primary-75;
 }
-.bg-primary-70{
+
+.bg-primary-70 {
     background-color: $primary-70;
 }
-.bg-primary-80{
+
+.bg-primary-80 {
     background-color: $primary-80;
 }
-.bg-primary-99{
+
+.bg-primary-99 {
     background-color: $primary-99;
 }
 
 // GREY TEXT VARIANT
-.text-col-grey-10{
-    color:$grey-10;
+.text-col-grey-10 {
+    color: $grey-10;
 }
-.text-col-grey-20{
-    color:$grey-20;
+
+.text-col-grey-20 {
+    color: $grey-20;
 }
-.text-col-grey-35{
-    color:$grey-35;
+
+.text-col-grey-35 {
+    color: $grey-35;
 }
-.text-col-grey-40{
-    color:$grey-40;
+
+.text-col-grey-40 {
+    color: $grey-40;
 }
-.text-col-grey-60{
-    color:$grey-60;
+
+.text-col-grey-60 {
+    color: $grey-60;
 }
-.text-col-grey-70{
-    color:$grey-70;
+
+.text-col-grey-70 {
+    color: $grey-70;
 }
 
 // WHITE BG CLASSES
-.custom-bg-white99{
+.custom-bg-white99 {
     background-color: $whitebg-99;
 }
-.custom-bg-white97{
+
+.custom-bg-white97 {
     background-color: $whitebg-97;
 }
 
 
-// CONTAINER
+// RESPONSIVE CONTAINER
 
-$container-p-lg: 9.375rem;
-$container-p: 6.25rem;
-
-.container-pt{
-    padding-top: $container-p;
-}
-.container-pb{
-    padding-bottom: $container-p;
-}
-.container-ps{
-    padding-left: $container-p;
-}
-.container-pe{
-    padding-right: $container-p;
-}
-.container-pt-lg{
-    padding-top: $container-p-lg;
-}
-.container-pb-lg{
-    padding-bottom: $container-p-lg;
+@include media-breakpoint-down(xl) {
+    :root {
+        --container-p-lg: 6.25rem;
+        --container-p: 5rem;
+    }
 }
 
-// PARAGRAPH FONT WEIGHT
-p{
+@include media-breakpoint-down(sm) {
+    :root {
+        --container-p-lg: 3.125rem;
+        --container-p: 3.125rem;
+    }
+}
+
+.container-pt {
+    padding-top: var(--container-p);
+}
+
+.container-pb {
+    padding-bottom: var(--container-p);
+}
+
+.container-ps {
+    padding-left: var(--container-p);
+}
+
+.container-pe {
+    padding-right: var(--container-p);
+}
+
+.container-pt-lg {
+    padding-top: var(--container-p-lg);
+}
+
+.container-pb-lg {
+    padding-bottom: var(--container-p-lg);
+}
+
+// PARAGRAPH OVERRIDES
+p {
     font-weight: 400;
-}
+    font-size: 1.125rem;
 
-// EXTRA PADDING CLASS 
-// .p-80{
-//     padding: 5rem;
-// }
+    @include media-breakpoint-down(xl) {
+        font-size: 1rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.875rem;
+    }
+}
+h1,.h1{
+    @include media-breakpoint-down(xl) {
+        font-size: 2.375rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 3.125rem;
+    }
+}
+h2,.h2{
+    @include media-breakpoint-down(xl) {
+        font-size: 3.75rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1.75rem;
+    }
+}
+h3,.h3{
+    @include media-breakpoint-down(xl) {
+        font-size: 1.75rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1.5rem;
+    }
+}
+h4,.h4{
+    @include media-breakpoint-down(xl) {
+        font-size: 1.25rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1.125rem;
+    }
+}
 
 // ACCORDIAN OVERRIDE CLASSES
 .accordion-button:not(.collapsed) {
@@ -140,7 +212,18 @@ p{
 //     transition: var(--bs-accordion-btn-icon-transition);
 // }
 .accordion-button:focus {
-  outline: none !important;
-  box-shadow: none !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
+// OVERRIDING ICON-LINK GAP
+.icon-link{
+    gap: 1rem;
+    @include media-breakpoint-down(xl) {
+        gap: .8125rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        gap: 0.625rem;
+    }
+}

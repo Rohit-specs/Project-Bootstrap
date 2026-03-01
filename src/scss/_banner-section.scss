@@ -1,7 +1,8 @@
 .banner-section {
     .container {
         max-width: 60rem;
-        .decoration-lines{
+
+        .decoration-lines {
             top: -26%;
             left: -24%;
         }
@@ -29,9 +30,11 @@
     top: -18%;
     left: -22%;
     animation: pulse-border 3s linear infinite;
+
     &--border-2 {
         animation-delay: 1.5s;
     }
+
     @include media-breakpoint-down(md) {
         width: 3rem;
         height: 3rem;
@@ -39,4 +42,16 @@
         top: 8%;
         left: 5%;
     }
+}
+
+.banner-heading {
+    .h2 {
+        @include media-breakpoint-down(xl) {
+            font-size: 2.25rem;
+        }
+        @include media-breakpoint-down(sm) {
+            font-size: 1rem;
+        }
+    }
+
 }
