@@ -32,21 +32,25 @@
     <!-- -------------------------------------------------------- -->
             <section class="header-bottom">
                 
-                <nav class="navbar navbar-expand-lg ">
-                <div class="container">
-                    <a class="navbar-brand" href="#">
+                <nav class="navbar navbar-expand-lg">
+                <div class="container border-bottom py-1 py-lg-2">
+                    <a class="navbar-brand" href="./index.html">
                         <picture>
 
                             <source srcset="./icons/logo-for-desktop.svg" media="(min-width: 1596px)">
                             <source srcset="./icons/logo-for-tablet.svg" media="(min-width: 1280px)">
                             <img src="./icons/logo-for-mobile.svg" alt="Description of image">
                         </picture>
-                    </a>
+                    </a><div class="ms-auto d-flex"><div class="d-flex d-lg-none align-items-center gap-0" role="button">
+                            <button href="#" role="button" class="btn btn-light h-font-col">Sign Up</button>
+                            <a class="custom-btn btn" href="#">Login</a>
+                        </div>
                     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
-                    </button>
+                    </button></div>
+                    
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav  me-sm-auto mb-2 mb-lg-0">
                             <li class="nav-item">
@@ -62,11 +66,11 @@
                                 <a class="nav-link" href="#our-pricing">Pricing</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#faq-section">Contact</a>
                             </li>
 
                         </ul>
-                        <div class="d-flex align-items-center gap-2" role="button">
+                        <div class="d-none d-lg-flex align-items-center gap-2" role="button">
                             <button href="#" role="button" class="btn btn-light h-font-col">Sign Up</button>
                             <a class="custom-btn btn" href="#">Login</a>
                         </div>
@@ -81,8 +85,8 @@
         <!-- ====================  BANNER SECTION  =================== -->
         <!-- --------------------------------------------------------- -->
         
-        <section class="banner-section container-pt container-pb" id="banner-section">
-            <div class="container text-center">
+        <section class="banner-section" id="banner-section">
+            <div class="container text-center container-pt container-pb">
                 <div class="banner-heading custom-bg-white99 mb-xl-2 mb-1 px-2 px-xl-4 py-1 rounded-3 d-flex align-items-center justify-content-center gap-lg-2 gap-1">
                     <span
                             class="position-relative d-inline-block p-1 p-xl-2 h4  bg-primary-95 rounded-2"><i class="fa fa-bolt"
@@ -149,7 +153,7 @@
                     </span>
                     <span class="border-animation border-animation--border-2">
                     </span>
-                    <i class=" fa fa-play"></i></a>
+                    <i class="fa fa-play"></i></a>
 
             </div>
         </div>
@@ -157,8 +161,8 @@
         <!-- ===================  BENEFITS SECTION  ================== -->
         <!-- --------------------------------------------------------- -->
         
-        <section class="benefits container-pb" id="benefits">
-            <div class="container">
+        <section class="benefits" id="benefits">
+            <div class="container container-pb">
                 <div class="benefits-heading row mb-4 mb-lg-5">
                     <div class="col-12 col-lg-8">
                         <div class="benefits-content">
@@ -178,7 +182,7 @@
                 <div class="content mt-lg-1 mt-xl-2">
                     <div class="row g-2">
                         <div class=" col col-12 col-lg-4">
-                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3">
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 h-100">
                                 <h3 class=" h1 mb-lg-5 mb-4 text-end">01</h3>
                                 <h4 class="mb-1 text-col-grey-20">Flexible Learning Schedule</h4>
                                 <p class="mb-xl-5 text-col-grey-30 mb-lg-4 mb-3">Fit your coursework around your existing commitments and
@@ -191,7 +195,7 @@
 
                         </div>
                         <div class=" col col-12 col-lg-4">
-                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3">
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 h-100">
                                 <h3 class=" h1 mb-lg-5 mb-4 text-end">02</h3>
                                 <h4 class="mb-1 text-col-grey-20">Expert Instruction</h4>
                                 <p class="mb-xl-5 text-col-grey-30 mb-lg-4 mb-3">Learn from industry experts who have hands-on experience
@@ -206,7 +210,7 @@
                             </div>
                         </div>
                         <div class=" col col-12 col-lg-4">
-                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3">
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 h-100">
                                 <h3 class=" h1 mb-lg-5 mb-4 text-end">03</h3>
                                 <h4 class="mb-1 text-col-grey-20">Diverse Course Offerings</h4>
                                 <p class="mb-xl-5 text-col-grey-30 mb-lg-4 mb-3">Explore a wide range of design and development courses
@@ -219,7 +223,7 @@
                             </div>
                         </div>
                         <div class=" col col-12 col-lg-4">
-                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3">
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 h-100">
                                 <h3 class=" h1 mb-lg-5 mb-4 text-end">04</h3>
                                 <h4 class="mb-1 text-col-grey-20">Updated Curriculum</h4>
                                 <p class="mb-xl-5 text-col-grey-30 mb-lg-4 mb-3">Access courses with up-to-date content reflecting the
@@ -233,7 +237,7 @@
                             </div>
                         </div>
                         <div class=" col col-lg-4 ">
-                            <div class="d-none d-lg-block rounded-2 bg-white p-xl-5 p-lg-4 p-3">
+                            <div class="d-none d-lg-block rounded-2 bg-white p-xl-5 p-lg-4 p-3 h-100">
                                 <h3 class=" h1 mb-lg-5 mb-4 text-end">05</h3>
                                 <h4 class="mb-1 text-col-grey-20">Practical Projects and Assignments</h4>
                                 <p class="mb-xl-5 text-col-grey-30 mb-lg-4 mb-3">Develop a portfolio showcasing your skills and abilities
@@ -247,7 +251,7 @@
 
                         </div>
                         <div class=" col col-12 col-lg-4 ">
-                            <div class="d-none d-lg-block rounded-2 bg-white p-xl-5 p-lg-4 p-3">
+                            <div class="d-none d-lg-block rounded-2 bg-white p-xl-5 p-lg-4 p-3 h-100">
                                 <h3 class=" h1 mb-lg-5 mb-4 text-end">06</h3>
                                 <h4 class="mb-1 text-col-grey-20">Interactive Learning Environment</h4>
                                 <p class="mb-xl-5 text-col-grey-30 mb-lg-4 mb-3">Collaborate with fellow learners, exchanging ideas and
@@ -268,8 +272,8 @@
         <!-- --------------------------------------------------------- -->
         <!-- ===================  COURSES SECTION  =================== -->
         <!-- --------------------------------------------------------- -->
-        <section class="our-courses container-pb" id="our-courses">
-            <div class="container ">
+        <section class="our-courses" id="our-courses">
+            <div class="container  container-pb">
                 <div class="our-courses-heading row mb-4 mb-lg-5">
                     <div class="col-12 col-lg-8">
                         <div class="our-courses-content">
@@ -290,7 +294,7 @@
 
                     <div class="row g-2">
                         <div class="col col-12 col-lg-6">
-                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 "><img class="img-fluid"
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 h-100 "><img class="img-fluid"
                                     src="./images/our-courses-img-1.png" alt="our courses img">
                                 <div class="row mt-3 justify-content-between
                             align-items-center">
@@ -312,7 +316,7 @@
 
                         </div>
                         <div class=" col col-12 col-lg-6">
-                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3"><img class="img-fluid"
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 h-100"><img class="img-fluid"
                                     src="./images/our-courses-img-2.png" alt="our courses img">
                                 <div class="row mt-3 justify-content-between
                             align-items-center">
@@ -334,7 +338,7 @@
 
                         </div>
                         <div class=" col col-12 col-lg-6">
-                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3"><img class="img-fluid"
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 h-100"><img class="img-fluid"
                                     src="./images/our-courses-img-3.png" alt="our courses img">
                                 <div class="row mt-3 justify-content-between
                             align-items-center">
@@ -356,7 +360,7 @@
 
                         </div>
                         <div class=" col col-12 col-lg-6">
-                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3"><img class="img-fluid"
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 h-100"><img class="img-fluid"
                                     src="./images/our-courses-img-4.png" alt="our courses img">
                                 <div class="row mt-3 justify-content-between
                             align-items-center">
@@ -377,7 +381,7 @@
 
                         </div>
                         <div class="col col-12 col-lg-6">
-                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 "><img class="img-fluid"
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 h-100 "><img class="img-fluid"
                                     src="./images/our-courses-img-5.png" alt="our courses img">
                                 <div class="row mt-3 justify-content-between
                             align-items-center">
@@ -399,7 +403,7 @@
 
                         </div>
                         <div class=" col col-12 col-lg-6">
-                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3"><img class="img-fluid"
+                            <div class="rounded-2 bg-white p-xl-5 p-lg-4 p-3 h-100"><img class="img-fluid"
                                     src="./images/our-courses-img-6.png" alt="our courses img">
                                 <div class="row mt-3 justify-content-between
                             align-items-center">
@@ -426,8 +430,8 @@
         <!-- --------------------------------------------------------- -->
         <!-- =================  TESTIMONIAL SECTION  ================= -->
         <!-- --------------------------------------------------------- -->
-        <section class="our-testimonial container-pb-lg" id="our-testimonial">
-            <div class="container">
+        <section class="our-testimonial" id="our-testimonial">
+            <div class="container container-pb-lg">
                 <div class="our-testimonial-heading row mb-4 mb-lg-5">
                     <div class="col-12 col-lg-8">
                         <div class="our-testimonial-content">
@@ -448,7 +452,7 @@
 
                     <div class="row g-2">
                         <div class=" col col-12 col-lg-6">
-                            <div class="rounded-2 custom-border"><div class="d-flex flex-column">
+                            <div class="rounded-2 custom-border h-100"><div class="d-flex flex-column">
                                 <p class="p-xl-5 p-4 bg-white text-col-grey-30">
                                     he web design course provided a solid foundation for me. The instructors were
                                     knowledgeable and supportive, and the interactive learning environment was engaging.
@@ -471,7 +475,7 @@
 
                         </div>
                         <div class="col col-12 col-lg-6">
-                            <div class="custom-border rounded-2 "><div class="d-flex flex-column">
+                            <div class="custom-border rounded-2 h-100 "><div class="d-flex flex-column">
                                 <p class="p-xl-5 p-4 bg-white text-col-grey-30">
                                     he UI/UX design course exceeded my expectations. The instructor's expertise and
                                     practical assignments helped me improve my design skills. I feel more confident in
@@ -493,7 +497,7 @@
 
                         </div>
                         <div class="col col-12 col-lg-6">
-                            <div class="rounded-2 custom-border"><div class="d-flex flex-column">
+                            <div class="rounded-2 custom-border h-100"><div class="d-flex flex-column">
                                 <p class="p-xl-5 p-4 bg-white text-col-grey-30">The mobile app development course was fantastic! The
                                     step-by-step tutorials and
                                     hands-on
@@ -517,7 +521,7 @@
 
                         </div>
                         <div class="col col-12 col-lg-6">
-                            <div class="rounded-2 custom-border "><div class="d-flex flex-column">
+                            <div class="rounded-2 custom-border h-100 "><div class="d-flex flex-column">
                                 <p class="p-xl-5 p-4 bg-white text-col-grey-30">
                                     enrolled in the graphic design course as a beginner, and it was the perfect starting
                                     point. The instructor's guidance and feedback improved my design abilities
@@ -551,8 +555,8 @@
         <!-- --------------------------------------------------------- -->
         <!-- ===================  PRICING SECTION  =================== -->
         <!-- --------------------------------------------------------- -->
-        <section class="our-pricing container-pb" id="our-pricing">
-            <div class="container">
+        <section class="our-pricing" id="our-pricing">
+            <div class="container container-pb">
                 <div class="our-pricing-heading row mb-4 mb-lg-5 g-4">
                     <div class="col-12 col-lg-7">
                         <div class="our-pricing-content">
@@ -581,7 +585,7 @@
                                 <p
                                     class="mb-4 mb-lg-5 primary-border rounded-1 bg-primary-97 text-center mx-auto py-1 fw-medium ">
                                     Free Plan</p>
-                                <h3 class="h1 text-center mb-lg-5 mb-4">$0<span class="fs-6 text-col-grey-30 fw-medium">/month</span>
+                                <h3 class="h1 text-center mb-lg-5 plan-price mb-4">$0<span class="fs-6 text-col-grey-30 fw-medium">/month</span>
                                 </h3>
                                 <div class="card custom-border rounded-bottom-0 rounded-top p-2 p-lg-3 p-xl-4">
 
@@ -646,7 +650,7 @@
                                 <p
                                     class="mb-4 mb-lg-5 primary-border rounded-1 bg-primary-97 text-center mx-auto py-1 fw-medium ">
                                     Pro Plan</p>
-                                <h3 class="h1 text-center mb-lg-5 mb-4">$79<span class="fs-6 text-col-grey-30 fw-medium">/month</span>
+                                <h3 class="h1 text-center mb-lg-5 plan-price mb-4">$79<span class="fs-6 text-col-grey-30 fw-medium">/month</span>
                                 </h3>
                                 <div class="card custom-border rounded-top rounded-bottom-0 p-2 p-lg-3 p-xl-4">
 
@@ -874,12 +878,12 @@
             <div class="row">
                 <div class="col col-12 col-lg-5">
                     <div class="mb-4">
-                        <picture>
-
+                        <a href="./index.html"><picture>
                             <source srcset="./icons/logo-for-desktop.svg" media="(min-width: 1596px)">
                             <source srcset="./icons/logo-for-tablet.svg" media="(min-width: 1280px)">
                             <img src="./icons/logo-for-mobile.svg" alt="Description of image">
-                        </picture>
+                        </picture></a>
+                        
                     </div>
 
                     <ul class="d-flex flex-column list-unstyled fw-normal gap-1 gap-lg-2">
