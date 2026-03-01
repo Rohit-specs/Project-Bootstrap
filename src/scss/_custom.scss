@@ -2,29 +2,9 @@ body {
     background-color: $gray-100;
 }
 
-// CUSTOM ORANGE BTN
-.custom-btn {
-    padding: $custom-btn-padding-y $custom-btn-padding-x;
-    @include media-breakpoint-down(xl) {
-        padding: .875rem 1.25rem;
-    }
-    background-color: $custom-btn-bg;
-    color: $custom-btn-color;
-    border-radius: .5rem;
-
-    &:hover {
-        background-color: $border-color;
-        color: $dark;
-    }
-}
-
 // CUSTOM BORDER
 .custom-border {
     border: .0625rem solid $border-color;
-}
-
-.h-font-col {
-    color: $heading-color;
 }
 
 // PRIMARY COLOR VARIANT
@@ -129,91 +109,6 @@ body {
 
 .container-pb-lg {
     padding-bottom: var(--container-p-lg);
-}
-
-// PARAGRAPH OVERRIDES
-p {
-    font-weight: 400;
-    font-size: 1.125rem;
-
-    @include media-breakpoint-down(xl) {
-        font-size: 1rem;
-    }
-
-    @include media-breakpoint-down(sm) {
-        font-size: 0.875rem;
-    }
-}
-h1,.h1{
-    @include media-breakpoint-down(xl) {
-        font-size: 2.375rem;
-    }
-
-    @include media-breakpoint-down(sm) {
-        font-size: 3.125rem;
-    }
-}
-h2,.h2{
-    @include media-breakpoint-down(xl) {
-        font-size: 3.75rem;
-    }
-
-    @include media-breakpoint-down(sm) {
-        font-size: 1.75rem;
-    }
-}
-h3,.h3{
-    @include media-breakpoint-down(xl) {
-        font-size: 1.75rem;
-    }
-
-    @include media-breakpoint-down(sm) {
-        font-size: 1.5rem;
-    }
-}
-h4,.h4{
-    @include media-breakpoint-down(xl) {
-        font-size: 1.25rem;
-    }
-
-    @include media-breakpoint-down(sm) {
-        font-size: 1.125rem;
-    }
-}
-
-// ACCORDIAN OVERRIDE CLASSES
-.accordion-button:not(.collapsed) {
-    color: #262626;
-    background-color: white;
-    box-shadow: none;
-}
-.accordion-button {
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 0 .5rem 0 0;
-    font-size: 1.25rem;
-    color: var(--bs-accordion-btn-color);
-    text-align: left;
-    background-color: white;
-    overflow-anchor: none;
-    transition: var(--bs-accordion-transition);
-}
-// .accordion-button::after {
-//     flex-shrink: 0;
-//     width: var(--bs-accordion-btn-icon-width);
-//     height: var(--bs-accordion-btn-icon-width);
-//     margin-left: auto;
-//     content: "";
-//     background-image: var(--bs-accordion-btn-icon);
-//     background-repeat: no-repeat;
-//     background-size: var(--bs-accordion-btn-icon-width);
-//     transition: var(--bs-accordion-btn-icon-transition);
-// }
-.accordion-button:focus {
-    outline: none !important;
-    box-shadow: none !important;
 }
 
 // OVERRIDING ICON-LINK GAP

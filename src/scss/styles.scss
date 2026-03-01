@@ -4,7 +4,7 @@
 
 // 2. Include any default variable overrides here
 
-@import './variables';
+@import "./variables";
 
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
 @import "./../../node_modules/bootstrap/scss/variables";
@@ -34,9 +34,10 @@ $container-max-widths:map-merge($map1: $container-max-widths, $map2:$custom-max-
 @import "bootstrap/scss/bootstrap";
 // 8. Add additional custom code here
 
-
-
-@import './custom';
-@import "./header";
-@import './banner-section';
-@import './pricing-section';
+@import "./custom";
+@import "./sections/header";
+@import "./sections/banner-section";
+@import "./sections/pricing-section";
+@import "./components/accordion";
+@import "./components/typography";
+@import "./components/_buttons.scss"
