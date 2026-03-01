@@ -22,6 +22,7 @@ $grey-35: #59595A;
 $grey-40: #656567;
 $grey-60: #98989A;
 $grey-70: #B3B3B3;
+$grey-30: #4C4C4D;
 
 // COLORS
 $white: #fff;
@@ -139,3 +140,12 @@ $accordion-icon-transform: rotate(-135deg);
 
 $accordion-button-icon: url("./../icons/accordian-btn-icon.svg");
 $accordion-button-active-icon: url("./../icons/accordian-btn-icon-active.svg");
+
+
+// CAROUSEL VARIABLES OVERRIDES
+
+$carousel-control-prev-icon-bg: url("./../icons/carousel-left-arrow.svg");
+$carousel-control-next-icon-bg: url("./../icons/carousel-right-arrow.svg");
+
+// FORM VARIABLE OVERRIDES
+$form-check-input-width:  1.5em;

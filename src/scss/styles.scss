@@ -40,4 +40,5 @@ $container-max-widths:map-merge($map1: $container-max-widths, $map2:$custom-max-
 @import "./sections/pricing-section";
 @import "./components/accordion";
 @import "./components/typography";
-@import "./components/_buttons.scss"
+@import "./components/_buttons.scss";
+@import "./components/carousel";
