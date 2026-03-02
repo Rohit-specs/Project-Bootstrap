@@ -126,3 +126,8 @@ body {
         gap: 0.625rem;
     }
 }
+
+// NO RESIZE CLASS FOR TEXTAREA 
+.no-resize {
+  resize: none;
+}
