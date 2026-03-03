@@ -7,7 +7,7 @@ p {
         font-size: 1rem;
     }
 
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
         font-size: 0.875rem;
     }
 }
@@ -19,7 +19,7 @@ p {
         font-size: 1rem;
     }
 
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
         font-size: 0.875rem;
     }
 }
@@ -36,7 +36,7 @@ h1,
         font-size: 2.375rem;
     }
 
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
         font-size: 3.125rem;
     }
 }
@@ -47,7 +47,7 @@ h2,
         font-size: 3.75rem;
     }
 
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
         font-size: 1.75rem;
     }
 }
@@ -58,7 +58,7 @@ h3,
         font-size: 1.75rem;
     }
 
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
         font-size: 1.5rem;
     }
 }
@@ -69,7 +69,7 @@ h4,
         font-size: 1.25rem;
     }
 
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(md) {
         font-size: 1.125rem;
     }
 }
