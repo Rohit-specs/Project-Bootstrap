@@ -2,10 +2,6 @@
 .custom-btn {
     padding: $custom-btn-padding-y $custom-btn-padding-x;
 
-    @include media-breakpoint-down(xl) {
-        padding: .875rem 1.25rem;
-    }
-
     background-color: $custom-btn-bg;
     color: $custom-btn-color;
     border-radius: .5rem;
@@ -18,5 +14,8 @@
 .btn,.custom-btn,.btn-light{
     @include media-breakpoint-down(xl) {
         font-size: .875rem;
+    }
+    @include media-breakpoint-down(xl) {
+        padding: .875rem 1.25rem;
     }
 }

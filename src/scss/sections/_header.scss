@@ -1,9 +1,19 @@
-header{
+header {
     color: $border-color;
 }
-.nav-link{
-    &:hover{
+
+.nav-link {
+    &:hover {
         background-color: $border-color;
         border-radius: .25rem;
     }
+
+    @include media-breakpoint-down(lg) {
+        padding-left: 1rem;
+    }
+}
+
+[aria-current=page] {
+    background-color: $border-color;
+    border-radius: .25rem;
 }
