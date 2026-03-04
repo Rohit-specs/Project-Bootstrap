@@ -43,9 +43,19 @@ A simple front‑end project that demonstrates responsive layout and style using
 - **Node.js** – for running build scripts  
 - **Vite** – development server & build tool
 
+---
+
+##  Screenshot
+
+- **Home Page** 
 ![Home Page](./src/images/home-page.PNG) 
+- **Login Page** 
 ![Login Page](./src/images/login-page.PNG) 
+- **Sign Up Page** 
 ![Sign Up Page](./src/images/sign-up-page.PNG)
+- **Courses Page** 
 ![Courses Page](./src/images/courses-page.PNG)  
+- **Courses Details Page** 
 ![Courses Details Page](./src/images/courses-details-page.PNG)
+- **Contact Page** 
 ![Contact Page](./src/images/contact-page.PNG) 
