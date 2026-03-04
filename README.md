@@ -45,7 +45,7 @@ A simple front‑end project that demonstrates responsive layout and style using
 
 ---
 
-##  Screenshot
+## 📷 Screenshot
 
 - **Home Page** 
 ![Home Page](./src/images/home-page.PNG) 
