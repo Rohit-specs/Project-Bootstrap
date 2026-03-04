@@ -19,8 +19,15 @@ A simple front‑end project that demonstrates responsive layout and style using
 ## 📁 Folder Structure
 ├── node_modules/ # Installed packages
 ├── src/
+│ ├── images/ # images file
+│ ├── icons/ # svg icons
 │ ├── scss/ # Sass source files
 │ └── index.html # Main HTML file
+│ └── courses.html # Courses html file
+│ └── courses-details.html # Courses detail HTML file
+│ └── login.html # Login HTML file
+│ └── signup.html # Signup HTML file
+│ └── contact.html # Contact HTML file
 ├── package.json # Project metadata & scripts
 ├── vite.config.js # Build tooling configuration
 ├── package-lock.json # Locked dependencies
@@ -34,4 +41,11 @@ A simple front‑end project that demonstrates responsive layout and style using
 - **CSS / SCSS (Sass)**  
 - **Bootstrap** – a popular front‑end responsive framework :contentReference[oaicite:3]{index=3}  
 - **Node.js** – for running build scripts  
-- **Vite** – development server & build tool  
+- **Vite** – development server & build tool
+
+![Home Page](./src/images/home-page.PNG) 
+![Login Page](./src/images/login-page.PNG) 
+![Sign Up Page](./src/images/sign-up-page.PNG)
+![Courses Page](./src/images/courses-page.PNG)  
+![Courses Details Page](./src/images/courses-details-page.PNG)
+![Contact Page](./src/images/contact-page.PNG) 
