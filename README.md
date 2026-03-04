@@ -1,6 +1,6 @@
 # Project‑Bootstrap
 
-**Practicing Bootstrap with Sass using Node.js for build and dependency management.** :contentReference[oaicite:2]{index=2}
+**Practicing Bootstrap with Sass using Node.js for build and dependency management.**
 
 A simple front‑end project that demonstrates responsive layout and style using the **Bootstrap framework** along with **Sass preprocessing** and **Node.js tooling** for compilation and workflow.
 
@@ -39,7 +39,7 @@ A simple front‑end project that demonstrates responsive layout and style using
 
 - **HTML**  
 - **CSS / SCSS (Sass)**  
-- **Bootstrap** – a popular front‑end responsive framework :contentReference[oaicite:3]{index=3}  
+- **Bootstrap** – a popular front‑end responsive framework 
 - **Node.js** – for running build scripts  
 - **Vite** – development server & build tool
 
