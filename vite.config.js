@@ -5,13 +5,13 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: path.resolve(__dirname, 'src/index.html'),
-        contact: path.resolve(__dirname, 'src/contact.html'),
-        courses: path.resolve(__dirname, 'src/courses.html'),
-        coursesdetail: path.resolve(__dirname, 'src/courses-detail.html'),
-        login: path.resolve(__dirname, 'src/login.html'),
-        signup: path.resolve(__dirname, 'src/signup.html'),
-      },
+  main: path.resolve(__dirname, 'src/index.html'),
+  contact: path.resolve(__dirname, 'src/contact.html'),
+  courses: path.resolve(__dirname, 'src/courses.html'),
+  coursesdetail: path.resolve(__dirname, 'src/courses-details.html'),
+  login: path.resolve(__dirname, 'src/login.html'),
+  signup: path.resolve(__dirname, 'src/signup.html'),
+},
     },
   },
   server: { 
