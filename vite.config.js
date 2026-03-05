@@ -1,7 +1,7 @@
-import { resolve } from 'path'
+import { defineConfig } from 'vite';
+import path from 'path';
 
-export default {
-  root: resolve(__dirname, 'src'),
+export default defineConfig({
   build: {
     rollupOptions: {
       input: {
@@ -30,4 +30,4 @@ export default {
         },
      },
   },
-}
+})
