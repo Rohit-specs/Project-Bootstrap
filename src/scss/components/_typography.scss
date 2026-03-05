@@ -1,17 +1,5 @@
 // PARAGRAPH OVERRIDES
-p {
-    font-weight: 400;
-    font-size: 1.125rem;
-
-    @include media-breakpoint-down(xl) {
-        font-size: 1rem;
-    }
-
-    @include media-breakpoint-down(md) {
-        font-size: 0.875rem;
-    }
-}
-.p {
+p ,.p{
     font-weight: 400;
     font-size: 1.125rem;
 
