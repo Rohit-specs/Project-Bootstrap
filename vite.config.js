@@ -15,19 +15,14 @@ export default defineConfig({
     },
   },
   server: {
-    port: 8080
+    port: 8080, // dev server port
   },
-  // Optional: Silence Sass deprecation warnings. See note below.
   css: {
-     preprocessorOptions: {
-        scss: {
-          silenceDeprecations: [
-            'import',
-            'mixed-decls',
-            'color-functions',
-            'global-builtin',
-          ],
-        },
-     },
+    preprocessorOptions: {
+      scss: {
+        // Silence deprecation warnings (true to silence all)
+        silenceDeprecationWarnings: true,
+      },
+    },
   },
-})
+});
