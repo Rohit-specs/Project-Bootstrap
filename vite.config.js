@@ -8,13 +8,13 @@ export default defineConfig({
         main: path.resolve(__dirname, 'src/index.html'),
         contact: path.resolve(__dirname, 'src/contact.html'),
         courses: path.resolve(__dirname, 'src/courses.html'),
-        coursesdetail: path.resolve(__dirname, 'src/courses-details.html'),
+        coursesdetail: path.resolve(__dirname, 'src/courses-detail.html'),
         login: path.resolve(__dirname, 'src/login.html'),
         signup: path.resolve(__dirname, 'src/signup.html'),
       },
     },
   },
-  server: {
+  server: { 
     port: 8080, // dev server port
   },
   css: {
