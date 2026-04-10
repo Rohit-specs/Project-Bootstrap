@@ -24,7 +24,7 @@ A simple front‑end project that demonstrates responsive layout and style using
 │ ├── scss/ # Sass source files
 │ └── index.html # Main HTML file
 │ └── courses.html # Courses html file
-│ └── courses-details.html # Courses detail HTML file
+│ └── coursesDetailss.html # Courses detail HTML file
 │ └── login.html # Login HTML file
 │ └── signup.html # Signup HTML file
 │ └── contact.html # Contact HTML file
@@ -56,6 +56,6 @@ A simple front‑end project that demonstrates responsive layout and style using
 - **Courses Page** 
 ![Courses Page](./src/images/courses-page.PNG)  
 - **Courses Details Page** 
-![Courses Details Page](./src/images/courses-details-page.PNG)
+![Courses Details Page](./src/images/coursesDetailss-page.PNG)
 - **Contact Page** 
 ![Contact Page](./src/images/contact-page.PNG) 

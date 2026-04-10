@@ -11,7 +11,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'src/index.html'),
         courses: resolve(__dirname, 'src/courses.html'),
-        coursesDetail: resolve(__dirname, 'src/courses-detail.html'),
+        coursesDetail: resolve(__dirname, 'src/coursesDetails.html'),
         contact: resolve(__dirname, 'src/contact.html'),
         login: resolve(__dirname, 'src/login.html'),
         signup: resolve(__dirname, 'src/signup.html')
