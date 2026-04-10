@@ -30,28 +30,46 @@
 
 import { resolve } from 'path'
 
-export default {
-  root: resolve(__dirname, 'src'),
+// export default {
+//   base: "/Project-Bootstrap",
+//   root: resolve(__dirname, 'src'),
+//   build: {
+//     outDir: '../dist'
+//   },
+//   server: {
+//     port: 8080
+//   },
+//   // Optional: Silence Sass deprecation warnings. See note below.
+//   css: {
+//      preprocessorOptions: {
+//         scss: {
+//           silenceDeprecations: [
+//             'import',
+//             'mixed-decls',
+//             'color-functions',
+//             'global-builtin',
+//           ],
+//         },
+//      },
+//   },
+// }
+
+import { defineConfig } from 'vite'
+import { resolve } from 'path'
+
+export default defineConfig({
   build: {
-    outDir: '../dist'
-  },
-  server: {
-    port: 8080
-  },
-  // Optional: Silence Sass deprecation warnings. See note below.
-  css: {
-     preprocessorOptions: {
-        scss: {
-          silenceDeprecations: [
-            'import',
-            'mixed-decls',
-            'color-functions',
-            'global-builtin',
-          ],
-        },
-     },
-  },
-}
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        courses: resolve(__dirname, 'courses.html'),
+        contact: resolve(__dirname, 'contact.html'),
+        login: resolve(__dirname, 'login.html'),
+        signup: resolve(__dirname, 'signup.html'),
+      }
+    }
+  }
+})
 
 // import { defineConfig } from 'vite';
 // import path from 'path';
