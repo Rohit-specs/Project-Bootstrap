@@ -22,7 +22,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "vite",
+    "start": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -30,7 +30,9 @@
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.8",
-    "sass": "^1.97.3",
-    "vite": "^7.3.1"
+    "sass": "^1.97.3"
+  },
+  "devDependencies": {
+    "vite": "^8.0.8"
   }
 }
